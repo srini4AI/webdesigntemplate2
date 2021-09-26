@@ -35,7 +35,7 @@ const Home: NextPage = () => {
           <p>Who we are</p>
         </div>
 
-        <div className="row content aos-init aos-animate">
+        <div className="row content">
           <div className="col-lg-6">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
               <li><FontAwesomeIcon icon={faCheckDouble}  size="lg" /> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
             </ul>
           </div>
-          <div className="col-lg-6 pt-4 pt-lg-0"   data-aos="fade-left">
+          <div className="col-lg-6 pt-4 pt-lg-0" >
             <p>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
