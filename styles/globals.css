@@ -421,6 +421,9 @@ div.card {
 .slick-list {
   margin: 0 -27px;
 }
+.swiper-slide {
+  text-align: center !important;
+}
 
 @media only screen and (max-width: 600px) {
 
