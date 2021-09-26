@@ -30,13 +30,13 @@ const Home: NextPage = () => {
       <section id="about" className="about my-3">
       <div className="container">
 
-        <div className="section-title aos-init aos-animate my-4" data-aos="fade-right">
+        <div className="section-title my-4">
           <h2>About</h2>
           <p>Who we are</p>
         </div>
 
         <div className="row content aos-init aos-animate">
-          <div className="col-lg-6"  data-aos="fade-right">
+          <div className="col-lg-6">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
