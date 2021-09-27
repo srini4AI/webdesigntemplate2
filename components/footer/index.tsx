@@ -6,14 +6,40 @@ export const FooterWeb = () =>{
 return (
     <footer id={styles.footer}>
         <div className={styles.footerTop}>
+            
             <div className="container">
+                
                 <div className="row">
+                <div className="col-lg-12 mb-5"  >
+                <h1 className="display-5">QUICK CONTACT</h1>
+            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+              <div className="row">
+                <div className="form-group col-md-6">
 
-                    <div className="col-lg-4 col-md-6 ">
+                  <input type="text" name="name" placeholder="Name" className="form-control" id="name" required={true}/>
+                </div>
+                <div className="form-group col-md-6">
+
+                  <input type="email" className="form-control"  placeholder="Email" name="email" id="email" required={true}/>
+                </div>
+              </div>
+              <div className="form-group">
+
+                <input type="text" className="form-control"   placeholder="Subject" name="subject" id="subject" required={true}/>
+              </div>
+              <div className="form-group">
+
+                <textarea className="form-control"  placeholder="Enter your message"  name="message" rows={5} required={true}></textarea>
+              </div>
+ 
+              <div className="text-center"><button type="button" className="btn btn-outline-primary my-2">Submit</button></div>
+            </form>
+          </div>
+                    <div className="col-lg-4 col-md-12 col-12 ">
                         <div className={styles.footerInfo}>
-                            <h3>
+                            <h4 className={styles.logo}>
                             <div className={styles.logoNav}><img src="/images/rapiscan_ltd_1.png" width="75"/><h4> ECIL - Rapiscan Ltd</h4></div>
-                            </h3>
+                            </h4>
                             <p>
                             8-1-305 & 306, 6th Floor,  <br/>
                             Unit-2, Anand Silicon Chip,<br/>
@@ -57,7 +83,7 @@ return (
                                             <h4>Our Newsletter</h4>
                                             <p>Subscribe to our Newsletter</p>
                                             <form action="" method="post">
-                                            <input type ="email" name="email"/><input type ="submit" value="Subscribe"/>
+                                            <input type ="email" name="email"/><input style={{"textAlign":"left"}} type ="submit" value="Subscribe"/>
                                             </form>
 
                                             </div>

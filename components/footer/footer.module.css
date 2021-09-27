@@ -4,6 +4,7 @@
   
     .logoNav img,.logoNav h4  {
       display:inline;
+      font-size: 24px !important;
     }
 
 #footer {
@@ -14,7 +15,7 @@
     font-family: "Nunito", sans-serif;
   }
   #footer .footerTop {
-    padding: 60px 0 30px 0;
+    padding: 20px 0 0px 0;
   }
   #footer .footerTop .footerInfo {
     margin-bottom: 15px;
@@ -57,12 +58,12 @@
     text-decoration: none;
   }
   #footer .footerTop h4 {
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 600;
+    
     color: #fff;
     position: relative;
     padding-bottom: 12px;
-    text-transform: uppercase;
   }
   #footer .footerTop .footerLinks {
     margin-bottom: 30px;

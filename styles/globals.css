@@ -435,6 +435,28 @@ div.card {
 
 }
 
+.form-control {
+  display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff !important;
+    background-color: #182227 !important;
+    background-clip: padding-box;
+    border: 1px solid #8c8484 !important;
+    margin: 10px 0px;
+}
+
+.form-control:focus {
+  color: #dedede !important;
+  background-color: #4a4a4a !important;
+  border-color: #676767 !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
 
 @media only screen and (min-width: 768px) {}
 
