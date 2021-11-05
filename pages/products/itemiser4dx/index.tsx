@@ -107,7 +107,7 @@ const Itemiser4DX = () =>{
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>COST EFFECTIVE</h3>
-              <ul>
+              <ul  className={styles.listPara}>
                 <li>Automated internal calibration eliminates cost of purchasing and managing calibration traps.</li>
                 <li>Folding monitor screen automatically shuts off backlight to extend life of display.</li>
                 <li>Regenerative dryer increases uptime and eliminates cost of monthly dryer material replacements.</li>
@@ -116,7 +116,7 @@ const Itemiser4DX = () =>{
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>EASE OF USE</h3>  
-              <ul>
+              <ul  className={styles.listPara}>
 	<li>Non-radioactive ionization source removes shipping restrictions and licensing requirements.</li>
 	<li>Built in printer for fast hard copy results or printing later.</li>
 	<li>Quick analysis and results in approximately 8 seconds.</li>
@@ -130,7 +130,7 @@ const Itemiser4DX = () =>{
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>RELIABLE</h3>
-              <ul>
+              <ul  className={styles.listPara}>
                 <li>Simultaneous dual mode detection by using one detector significantly decreases the possibility of mechanical failure associated with two detector systems.</li>
                 <li>Maintains a low, stable humidity level in the detector, allowing for consistent and reliable detection results.</li>
                 <li>Automatically saves test results, preventing deletions.</li>
@@ -141,13 +141,13 @@ const Itemiser4DX = () =>{
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>EASY-TO-USE OPERATOR INTERFACE</h3>  
-              <ul>
+              <ul  className={styles.listPara}>
                 <li>Results require minimal interpretation, allowing operators to concentrate on sample acquisition.</li>
                 <li>Onboard computer automatically logs all data, including time, date, sample analysis and system status.</li>
                 <li>A comprehensive history of saved data and alarm files can be recalled and printed.</li>
               </ul>
               <h3 className={styles.aboutH3}>PORTABILITY</h3>  
-              <ul>
+              <ul className={styles.listPara}>
                 <li>Lightweight (28.65 lb/12.99 kg) with built-in handle for easy transport.</li>
                 <li>Internal, one-hour battery allows instrument relocation without shut off, eliminating warmup time.</li>
               </ul>
