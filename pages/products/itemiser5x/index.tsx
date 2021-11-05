@@ -36,20 +36,14 @@ const Itemiser = () =>{
           
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>New for 2021. The Itemiser 5X uses optimized detection libraries and advanced software algorithms, making it the ideal solution for detecting trace amounts of explosive and narcotic threats.</p>
-            <p  className={styles.productdescr}>
-            The nonradioactive ionization source eliminates the need for annual wipe tests and licensing, as well as reduces shipping challenges.
-            </p>
-            <p  className={styles.productdescr}>
-            This portable, ergonomic desktop design features automated internal calibration to help decrease consumables usage, boost availability rates, and increase detection probability.
-            </p>
             <div className="row">
               <div className="col-lg-12">
               <ul className={`${styles.productslist} list-group list-group-flush`}>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span> SIMULTANEOUS DETECTION OF EXPLOSIVE AND NARCOTICS IN EIGHT SECONDS</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> NON-RADIOACTIVE IONIZATION SOURCE</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> INCREASED USABILITY, IMPROVED OPERATIONAL AND DETECTION ACCURACY</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> EMOTE MONITORING CAPABILITY VIA REMOTE CONNECT™</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> PUSH-BUTTON, SCHEDULABLE AUTOMATED MAINTENANCE</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span>NEW SUBSYSTEMS FOR GREATER RELIABILITY & ADVANCED SOFTWARE ALGORITHMS</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> FAST CLEAR DOWNS</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> NEW DESORBER DESIGN MAKES FOR MORE EFFICIENT SAMPLE INTRODUCTION</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> NEW SAMPLE WAND WITH GREATER ERGONOMICS AND SAMPLE INTRODUCTION</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> REMOTE MONITORING VIA REMOTE CONNECT CONSOLE</span></li>
   </ul>    
  
               </div>
@@ -70,7 +64,7 @@ const Itemiser = () =>{
                         <FontAwesomeIcon icon={faCheck} className="text-center"  color="white" size="2x"  />
                         
                     </div>
-                    <p className={`${styles.circleIconp} text-center mt-3`}>AUTOMATIC <br/>INTERNAL <br/> CALIBRATION</p>
+                    <p className={`${styles.circleIconp} text-center mt-3`}>INCREASED USER <br/> EXPERIENCE</p>
                     </div>
                     <div className="col-2">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
@@ -78,7 +72,7 @@ const Itemiser = () =>{
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
                         
                     </div>
-                    <p className={`${styles.circleIconp} text-center mt-3`}>COST <br/>EFFECTIVE <br/></p>
+                    <p className={`${styles.circleIconp} text-center mt-3`}>COST EFFECTIVE</p>
                     </div>
                     <div className="col-2">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
@@ -105,6 +99,7 @@ const Itemiser = () =>{
                     <p className={`${styles.circleIconp} text-center mt-3`}>EASE OF USE<br/></p>
                     </div>
             </div>
+            
         </div>
     </section>
     <footer id={styles1.footer}>

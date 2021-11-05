@@ -22,28 +22,28 @@ export const NavBarHeader =() =>{
         <NavDropdown title="Products" id="collasible-nav-dropdown">
         <NavDropdown  align="end" drop="end" title="X-ray Baggage Scanners" id={styles.anchorAnnual}>
           <NavDropdown align="end" drop="end" title="Single View Scanners" id={styles.anchorAnnual}>
-          <NavDropdown.Item href="#action/3.1">RAP 515</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">RAP 618XR/XRH</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 620XR</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 620XRH</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 620XRve</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 622XR</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 624XR</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 626XR</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 627XR</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 628XR</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 632XR</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">RAP 638XR</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan515">RAP 515</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan618xr-xrh">RAP 618XR/XRH</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan620xr">RAP 620XR</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan620xrh">RAP 620XRH</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan620xrve">RAP 620XRve</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan622xr">RAP 622XR</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan624xr">RAP 624XR</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan626xr">RAP 626XR</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan627xr">RAP 627XR</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan628xr">RAP 628XR</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan632xr">RAP 632XR</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan638xr">RAP 638XR</NavDropdown.Item>
          </NavDropdown>
          </NavDropdown>
          <NavDropdown  align="end" drop="end" title="Explosive Trace Detectors" id={styles.anchorAnnual}>
-         <NavDropdown.Item href="/products/itemiser5x">Mobile Trace</NavDropdown.Item>
+         <NavDropdown.Item href="/products/mobiletrace">Mobile Trace</NavDropdown.Item>
           <NavDropdown.Item href="/products/itemiser4dx">Itemizer 4DX</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Itemizer 3E</NavDropdown.Item>
+          <NavDropdown.Item href="/products/itemiser3e">Itemizer 3E</NavDropdown.Item>
           <NavDropdown.Item href="/products/itemiser5x">Itemizer 5X</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown  align="end" drop="end" title="Door Frame Metal Detectors" id={styles.anchorAnnual}>
-         <NavDropdown.Item href="#action/3.1">Metor 6M</NavDropdown.Item>
+         <NavDropdown.Item href="/products/metor6m">Metor 6M</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Metor 6S</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Metor 6WP</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Metor 6e</NavDropdown.Item>

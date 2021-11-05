@@ -36,26 +36,22 @@
 .aboutH3 {
     font-weight: 400;
     font-size: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Francois One", sans-serif;
     color:#00adff;
     margin:15px 0px;
 }
+
 .listPara {
     font-family: "Abel", sans-serif;
     font-size: 20px;
 }
-
 .headingH2 {
-    font-family: "Abel", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
-    font-weight:500;
-    
 }
 .breadcrumbs {
     background: #1e4356;
     color: #FFF;
     text-transform: capitalize;
     padding:1.5em 0em;
-    font-family: "Abel", sans-serif;
-    margin-top:5.5em;
 }
