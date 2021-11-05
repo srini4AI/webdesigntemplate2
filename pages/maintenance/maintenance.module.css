@@ -1,0 +1,144 @@
+.headingH2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+.breadcrumbs {
+    background: #1e4356;
+    color: #FFF;
+    text-transform: capitalize;
+    padding:1.5em 0em;
+}
+
+.aboutH3 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color:#00adff;
+    margin:15px 0px;
+}
+
+.resume .resumeItem h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #0563bb;
+    margin-bottom: 10px;
+}
+.resume .resumeTitle {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #45505b;
+}
+.aboutp {
+    text-align: justify;
+}
+
+.resume .resumeItem {
+    padding: 0 0 0px 26px;
+    margin-top: -2px;
+    border-left: 2px solid #0563bb;
+    position: relative;
+}
+.pricing .box ul li{
+    margin: 12px 0px;
+    list-style-type: none;
+    text-align: left;
+}
+.sectionTitle h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+}
+
+.sectionTitle h2::before {
+    margin: 0 15px 10px 0;
+}
+
+.sectionTitle h2::before, .sectionTitle h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+.sectionTitle h2::after {
+    margin: 0 0 10px 15px;
+}
+.sectionTitle h2::before, .sectionTitle h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+.sectionTitle {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.pricing .box ul li span{
+font-size: 13px;;
+}
+
+.pricing .box {
+    text-align: center;
+    padding: 38px 13px 15px 3px;
+    box-shadow: 0 3px 20px -2px rgb(20 45 100 / 10%);
+    background: #fff;
+    height: 100%;
+    font-family: 'Poppins',sans-serif;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+}
+.pricing .buybbtn:hover {
+    background: #47b2e4;
+    color: #fff;
+}
+.pricing .buybbtn {
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    color: #47b2e4;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;
+    text-decoration: none;
+}
+
+.pricing h4 span {
+    text-align: center;
+    color: #47b2e4;
+    font-size: 14px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    color:#000;
+}
+.pricing h4 {
+    font-size: 48px;
+    color: #37517e;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 25px;
+}
+.pricing .featured {
+    border-top-color: #47b2e4;
+}
+.resume .resumeItem ::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #0563bb;
+}

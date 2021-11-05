@@ -10,7 +10,29 @@
     font-family: 'Archivo', sans-serif;
 }
 
+.collasible-nav-dropdown-annual{
 
+}
+.navbarStyle  {
+  font-family: 'Abel', sans-serif;
+  font-size:18px;
+}
+#anchorAnnual{
+  padding-left: 16px !important;
+  padding-right: 25px;
+    color: #000;
+    font-size:18px  !important;
+}
+#anchorAnnual:hover{
+  color: #1e2125 !important;
+    background-color: #e9ecef !important;
+
+}
+#anchorAnnual::after{
+  right: 9px;
+  position: absolute;
+  top: 17px;
+}
 .logoImage {
   width:75px;
 }

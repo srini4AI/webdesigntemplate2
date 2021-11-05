@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import styles from '../styles/Home.module.css'
 import { NavBarHeader } from '../components/navbar';
 import { BannerCarousel } from '../components/carousels';
@@ -11,16 +11,20 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import "animate.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBinoculars , faSearch, faBomb, faCar,  faCheckDouble,  faMapMarkerAlt, faEnvelope, faEnvelopeSquare, faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faBinoculars , faSearch, faBomb, faCar,  faCheckDouble,  faMapMarkerAlt, 
+  faEnvelope, faEnvelopeSquare, faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons';
 import {Button} from 'react-bootstrap';
 import CountUp from 'react-countup';
 import React from 'react';
 import { FooterWeb } from '../components/footer';
 import { ProductPortfolio } from '../components/product';
+import styles1 from '../components/footer/footer.module.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ContactForm from '../components/contactForm';
 const Home: NextPage = () => {
   useEffect(()=>{
     AOS.init({
-      duration : 2000
+      duration : 500
     });
   },[])
   return (
@@ -32,28 +36,40 @@ const Home: NextPage = () => {
 
         <div className="section-title my-4">
           <h2>About</h2>
-          <p>Who we are</p>
+          <p>Pioneer in Public Safety & Security past 25+ Years</p>
         </div>
 
         <div className="row content">
           <div className="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            <p className={styles.paraP}>
+             Rapiscan Systems, UK & USA (www.rapiscansystems.com) is a subsidiary of OSI Systems Inc., USA. Rapiscan Systems is a leader in manufacturing the latest state-of-the-art XBIS (X-ray and Baggage Screening Solutions) and other related products manufactured to International Standards and approved by the Aviation Authorities in the USA, UK, and EUROPE. Rapiscan has supplied thousands of XBIS to reputed Organizations such as Heathrow Airport, 
             </p>
-            <ul>
-              <li>   <FontAwesomeIcon icon={faCheckDouble}  size="lg" /> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li>   <FontAwesomeIcon icon={faCheckDouble}  size="lg" /> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><FontAwesomeIcon icon={faCheckDouble}  size="lg" /> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
+           
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0" >
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <Button variant="outline-primary">Learn More</Button>
+          <p className={styles.paraP}> Manchester Airport, Foreign Post Office UK,Her Majesty's Prisons, Buckingham Palace, and many other USA, Europe, Middle East, South East Asia etc.</p>
+          <h3 className={styles.aboutH3}>Our Prestigious Clients include:</h3>
+          
+            <div className="row">
+            <div className="col-lg-6 col-sm-6 col-12">
+            
+          <ul  className={styles.unordered}>
+              <li>   <FontAwesomeIcon icon={faCheckDouble}  size="lg" /> Indian Police & Central Jails</li>
+              <li>   <FontAwesomeIcon icon={faCheckDouble}  size="lg" /> Airforce stations</li>
+              <li><FontAwesomeIcon icon={faCheckDouble}  size="lg" />  Airports</li>
+          
+            </ul>
+            </div>
+            <div className="col-lg-6 col-sm-6 col-12">
+            <ul className={styles.unordered}>
+              <li>   <FontAwesomeIcon icon={faCheckDouble}  size="lg" /> Defence</li>
+              <li>   <FontAwesomeIcon icon={faCheckDouble}  size="lg" /> Parliament House</li>
+              <li><FontAwesomeIcon icon={faCheckDouble}  size="lg" />  PWD</li>
+  
+            </ul>
+              </div>
+              </div>
+            <Button href="/about" size="lg" variant="outline-primary">Learn More</Button>
           </div>
         </div>
 
@@ -139,15 +155,30 @@ const Home: NextPage = () => {
 
         <div className="section-title" >
           <h2 >Clients</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          
         </div>
         <div className="my-3 py-3 col-12">
       <SliderWeb></SliderWeb>
       </div>
       </div>
     </section>
+      <footer id={styles1.footer}>
+        <div className={styles1.footerTop}>
+          <div className="container">
+            <div className="row">
+              <ContactForm></ContactForm>
+              <FooterWeb></FooterWeb>
+              <div className={styles1.container}>
+                <div className={styles1.copyright}>
+                  © 2021 <strong><span>ECIL Rapiscan Limited.</span></strong> All Rights Reserved
+                </div>
 
-    <FooterWeb></FooterWeb>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
     </div>
   )
 }

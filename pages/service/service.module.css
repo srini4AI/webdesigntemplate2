@@ -1,0 +1,52 @@
+.headingH2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+.breadcrumbs {
+    background: #1e4356;
+    color: #FFF;
+    text-transform: capitalize;
+    padding:1.5em 0em;
+}
+
+.sechead {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.aboutH3 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color:#00adff;
+    margin:15px 0px;
+}
+
+
+
+.aboutH3 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color:#00adff;
+    margin:15px 0px;
+}
+.ulList {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.ulList li {
+    color: #444;
+    display: block;
+    padding: 5px 0;
+    margin-left: 1em;
+}
+.ulList li svg {
+    color: #00adff;
+
+}
