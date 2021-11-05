@@ -41,11 +41,11 @@ const rap515 = () =>{
             <div className="row">
               <div className="col-lg-12">
               <ul className={`${styles.productslist} list-group list-group-flush`}>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span>Crystal Clear</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span> Crystal Clear</span></li>
     <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> Multi Energy Imaging (4 color)</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>Density Threat Alert</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> Density Threat Alert</span></li>
     <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> High/Low Penetration</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>  Full diagnostic built in test facility</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> Full diagnostic built in test facility</span></li>
     <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> Date/Time display</span></li>
     </ul>    
  
@@ -64,23 +64,20 @@ const rap515 = () =>{
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>DETECTION OF EXPLOSIVES AND NARCOTICS ALERT</h3>
-              <ul  className={styles.listPara}>
-                <li>Target and NARCScan are designed to assist operators in the detection of a range of explosives and narcotics respectively in real time during the scanning process by marking a potential threat on the X-ray image. Rapiscan Systems detection algorithms are based on regulatory material analysis techniques.</li>
-              </ul>
+              <p  className={styles.listPara}>
+                Target and NARCScan are designed to assist operators in the detection of a range of explosives and narcotics respectively in real time during the scanning process by marking a potential threat on the X-ray image. Rapiscan Systems detection algorithms are based on regulatory material analysis techniques.
+              </p>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>EASE OF USE PROVIDING HIGHEST THROUGHPUT</h3>  
-              <ul  className={styles.listPara}>
-	<li>With over 13 image processing tools and detection alert algorithm functions, the feature rich software allows the operator to more easily and accurately search for contraband.</li>
-</ul>
+              <p  className={styles.listPara}>
+	With over 13 image processing tools and detection alert algorithm functions, the feature rich software allows the operator to more easily and accurately search for contraband.</p>
                 </div>
             </div>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>REGULATORY COMPLIANCE</h3>
-              <ul  className={styles.listPara}>
-                <li>All Rapiscan systems comply with applicable international health andsafety regulations including USA FDA X-ray systems (Federal Standard 21-CFR1020.40) and Health and Safety at Work Act 1974-section 6, Amended by theConsumer Protection Act 1987. Maximum leakage radiation less than 0.1mR/hr (1µ Sv/hr) in contact with outer panels. Film Safety: For ISO 1600/33 DIN,guaranteed up to 10 times exposure to radiation.</li>
-              </ul>
+              <p  className={styles.listPara}>All Rapiscan systems comply with applicable international health andsafety regulations including USA FDA X-ray systems (Federal Standard 21-CFR1020.40) and Health and Safety at Work Act 1974-section 6, Amended by theConsumer Protection Act 1987. Maximum leakage radiation less than 0.1mR/hr (1µ Sv/hr) in contact with outer panels. Film Safety: For ISO 1600/33 DIN,guaranteed up to 10 times exposure to radiation.</p>
               </div>
               
             </div>

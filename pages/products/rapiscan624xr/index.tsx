@@ -45,9 +45,9 @@ const rap624xr = () =>{
             <div className="row">
               <div className="col-lg-12">
               <ul className={`${styles.productslist} list-group list-group-flush`}>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span>UPRIGHT BAGGAGE SCREENING</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>EASY LOADING CONVEYOR</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>NETWORK ENABLED</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span> UPRIGHT BAGGAGE SCREENING</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> EASY LOADING CONVEYOR</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> NETWORK ENABLED</span></li>
     <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> COST EFFECTIVE</span></li>
     </ul>    
  
@@ -66,23 +66,20 @@ const rap624xr = () =>{
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>DETECTION OF EXPLOSIVES AND NARCOTICS ALERT</h3>
-              <ul  className={styles.listPara}>
-                <li>Target and NARCScan are designed to assist operators in the detection of a range of explosives and narcotics respectively in real time during the scanning process by marking a potential threat on the X-ray image. Rapiscan Systems detection algorithms are based on regulatory material analysis techniques.</li>
-              </ul>
+              <p  className={styles.listPara}>Target and NARCScan are designed to assist operators in the detection of a range of explosives and narcotics respectively in real time during the scanning process by marking a potential threat on the X-ray image. Rapiscan Systems detection algorithms are based on regulatory material analysis techniques.</p>
+              
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>EASE OF USE PROVIDING HIGHEST THROUGHPUT</h3>  
-              <ul  className={styles.listPara}>
-	<li>With over 13 image processing tools and detection alert algorithm function, the feature rich software allows the operator to more easily and accurately search for contraband.</li>
-</ul>
+              <p  className={styles.listPara}>With over 13 image processing tools and detection alert algorithm function, the feature rich software allows the operator to more easily and accurately search for contraband.</p>
                 </div>
             </div>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>REGULATORY COMPLIANCE</h3>
-              <ul  className={styles.listPara}>
-                <li>624XR performance is in full compliance with the European Union regulations (EC) No. 300/2008, (EU) No. 2015/1998 and Commissions Decision C (2015)8005 for aviation security.</li>
-              </ul>
+              <p  className={styles.listPara}>
+                624XR performance is in full compliance with the European Union regulations (EC) No. 300/2008, (EU) No. 2015/1998 and Commissions Decision C (2015)8005 for aviation security.
+              </p>
               </div>
               
             </div>

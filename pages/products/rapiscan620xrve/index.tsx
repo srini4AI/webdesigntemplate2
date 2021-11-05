@@ -47,13 +47,13 @@ The 620XR ve implements rapiscan’s proprietary X-ray imaging technique allowin
               <div className="col-lg-12">
               <ul className={`${styles.productslist} list-group list-group-flush`}>
     <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span> MULTI ENERGY IMAGING (4 COLOR)</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>VIEW PREVIOUS/NEXT BAG</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>IMAGE ARCHIVE</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>CONFIGURABLE IMAGE PROCESSING KEYS</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>BAGGAGE COUNTER</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>DATE / TIME DISPLAY</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>SEARCH INDICATOR</span></li>
-    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span>FLAT PANEL MONITOR</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> VIEW PREVIOUS/NEXT BAG</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> IMAGE ARCHIVE</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> CONFIGURABLE IMAGE PROCESSING KEYS</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> BAGGAGE COUNTER</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> DATE / TIME DISPLAY</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> SEARCH INDICATOR</span></li>
+    <li className="list-group-item"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> FLAT PANEL MONITOR</span></li>
     </ul>    
  
               </div>
@@ -68,7 +68,7 @@ The 620XR ve implements rapiscan’s proprietary X-ray imaging technique allowin
     <section>
         <div className="container">
         <div className="row">
-                    <div className="offset-md-1  col-2">
+                    <div className="offset-md-3  col-2">
                     <div className={`${styles.circleIcon}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"  color="white" size="2x"  />
@@ -97,29 +97,21 @@ The 620XR ve implements rapiscan’s proprietary X-ray imaging technique allowin
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>SUPER COMPACT, HIGH PERFORMANCE</h3>
-              <ul  className={styles.listPara}>
-                <li>With a small footprint and a low weight of under 373kg, 620XR ve is ideal for security sensitive areas with limited space for placement of security equipment while providing excellent imaging performance.</li>
-              </ul>
+              <p  className={styles.listPara}>With a small footprint and a low weight of under 373kg, 620XR ve is ideal for security sensitive areas with limited space for placement of security equipment while providing excellent imaging performance.</p>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>EASE OF USE PROVIDING HIGHEST THROUGHPUT</h3>  
-              <ul  className={styles.listPara}>
-	<li>With over 14 image processing tools and detection alert algorithms functions, the feature rich software allows the operator to more easily and accurately search for contraband.</li>
-</ul>
+              <p  className={styles.listPara}>With over 14 image processing tools and detection alert algorithms functions, the feature rich software allows the operator to more easily and accurately search for contraband.</p>
                 </div>
             </div>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>REGULATORY COMPLIANCEREGULATORY COMPLIANCE</h3>
-              <ul  className={styles.listPara}>
-                <li>620XR ve is in full compliance with the European Union regulations (EC) No. 300/2008, (EU) No. 2015/1998 and Commissions Decision C-(2015)8005.</li>
-              </ul>
+              <p  className={styles.listPara}>620XR ve is in full compliance with the European Union regulations (EC) No. 300/2008, (EU) No. 2015/1998 and Commissions Decision C-(2015)8005.</p>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>SINERGY</h3>
-              <ul  className={styles.listPara}>
-                <li>Rapiscan Systems latest proprietary image enhancement tool, utilizes the new innovative Dual-Mode X-ray imaging Technique (DMxT) to emphasize the detail in specific regions of images by enhancing the visibility of thin metal therefore increasing operator recognition of potential threats in cluttered images.</li>
-              </ul>
+              <p  className={styles.listPara}>Rapiscan Systems latest proprietary image enhancement tool, utilizes the new innovative Dual-Mode X-ray imaging Technique (DMxT) to emphasize the detail in specific regions of images by enhancing the visibility of thin metal therefore increasing operator recognition of potential threats in cluttered images.</p>
               </div>
             </div>
         </div>

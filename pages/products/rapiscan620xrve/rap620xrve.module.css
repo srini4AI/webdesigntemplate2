@@ -44,6 +44,7 @@
 .listPara {
     font-family: "Abel", sans-serif;
     font-size: 20px;
+    text-align: justify;
 }
 .headingH2 {
     font-family: "Roboto", sans-serif;
@@ -54,4 +55,5 @@
     color: #FFF;
     text-transform: capitalize;
     padding:1.5em 0em;
+    margin-top:5.5em;
 }
