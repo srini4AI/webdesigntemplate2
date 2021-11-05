@@ -1,0 +1,57 @@
+
+.sechead {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+
+.productdescr {
+    font-family: 'Abel', sans-serif !important;
+    font-size:20px;
+}
+.productslist{
+    font-family: 'Abel', sans-serif !important;  
+    font-size:20px;
+}
+.circleIcon {
+    background: #0dcaf0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+.circleIconp {
+    font-family: 'Nunito', sans-serif;
+}
+
+.aboutH3 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Francois One", sans-serif;
+    color:#00adff;
+    margin:15px 0px;
+}
+
+.listPara {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+}
+.headingH2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+.breadcrumbs {
+    background: #1e4356;
+    color: #FFF;
+    text-transform: capitalize;
+    padding:1.5em 0em;
+}
