@@ -12,6 +12,7 @@ import { GoogleMap, Marker } from "react-google-maps";
 import { MyMap } from '../../components/myMap';
 import styles1 from '../../components/footer/footer.module.css';
 import { FooterWeb } from '../../components/footer';
+import { ScrollToTop } from '../../components/scrolltotop';
  const Service = () =>{
      const [marker,setIsMarker] = useState<boolean>(true);
      
@@ -84,6 +85,7 @@ import { FooterWeb } from '../../components/footer';
         </div>
       </footer>
 
+      <ScrollToTop></ScrollToTop>
     </>);
 }
 

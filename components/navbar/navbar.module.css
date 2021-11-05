@@ -3,7 +3,7 @@
   }
 .logoText{
   display: inline-block;
-  color: #006aae;
+  color: #006aae !important;
     font-weight: 600;
     /* font-family: 'Encode Sans', sans-serif; */
     /* font-family: 'Manrope', sans-serif; */
@@ -48,6 +48,11 @@
 
   .logoNav img,.logoNav h4  {
     display:inline;
+    display: inline;
+    font-size: 26px;
+    /* line-height: 33px; */
+    text-transform: uppercase;
+    font-family: 'Francois One',sans-serif;
   }
 
 

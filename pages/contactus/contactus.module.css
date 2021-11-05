@@ -1,12 +1,16 @@
 .headingH2 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Abel", sans-serif;
     font-size: 24px;
+    font-weight:500;
+    
 }
 .breadcrumbs {
     background: #1e4356;
     color: #FFF;
     text-transform: capitalize;
     padding:1.5em 0em;
+    font-family: "Abel", sans-serif;
+    margin-top:5.5em;
 }
 .resumeItem ::before {
     content: "";
@@ -37,17 +41,20 @@
 .panelcard {
     height:25px;
 }
-.resumeItem h4 {
+
+.resume .resumeItem h4 {
     line-height: 18px;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
+    font-family: "Francois One", sans-serif;
     color: #0563bb;
     margin-bottom: 10px;
 }
 .resumeItem p {
     margin-bottom:0px;
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
 }
 .resumeTitle {
     font-size: 26px;
@@ -91,13 +98,13 @@
     margin: 1em 0 .6em 0;
     padding: 10px 0 10px 20px;
     background: #f3f3f3;
-    font-weight: normal;
+    font-weight: 300;
     color: #484848;
     font-family: 'Nunito', sans-serif;
     border: 1px solid #f1efef;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
     position: relative;
-    font-size: 17px;
+    font-size: 20px;
     text-transform: capitalize;
 }
 

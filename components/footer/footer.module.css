@@ -33,10 +33,9 @@
     font-weight: 700;
   }
   #footer .footerTop .footerInfo p {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 18px;
     margin-bottom: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Abel", sans-serif;
   }
   #footer .footerTop .socialLinks a {
     font-size: 18px;
@@ -58,10 +57,12 @@
     text-decoration: none;
   }
   #footer .footerTop h4 {
-    font-size: 16px;
+    font-family: 'Francois One',sans-serif;
+    font-size: 20px;
     font-weight: 600;
+    text-transform: uppercase;
     
-    color: #fff;
+    color: #006aae;
     position: relative;
     padding-bottom: 12px;
   }
@@ -72,6 +73,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 18px;
+    font-family: 'Abel',sans-serif;
   }
   #footer .footerTop .footerLinks ul svg {
     padding-right: 2px;
