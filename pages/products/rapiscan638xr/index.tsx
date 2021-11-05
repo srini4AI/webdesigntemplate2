@@ -74,7 +74,6 @@ const rap638xr = () =>{
               <h3 className={styles.aboutH3}>REGULATORY COMPLIANCE</h3>
               <p  className={styles.listPara}>638XR performance is in full compliance with the European Union regulations (EC) No. 300/2008, (EU) No. 2015/1998 and Commissions Decision C (2015)8005 for aviation security.</p>
               </div>
-              
             </div>
         </div>
     </section>
