@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckDouble } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../components/footer';
 import styles1 from '../../components/footer/footer.module.css';
+import { ScrollToTop } from '../../components/scrolltotop';
 const Maintenance = () =>{
     return (<>
         <NavBarHeader></NavBarHeader>
@@ -118,7 +119,7 @@ const Maintenance = () =>{
 
           <div className="col-lg-4 mt-4 mt-lg-0">
             <div className={`${styles.box} ${styles.featured}`}>
-              <h3>GOLD</h3>
+              <h3 className={styles.featuredHead}>GOLD</h3>
               <h4><span>(Available at all Service Branch locations)</span></h4>
               <ul>
               <li><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span> Technical Support - 24 Hours / 7 Days  / 365 Days a Year</span></li>
@@ -171,6 +172,8 @@ const Maintenance = () =>{
           </div>
         </div>
       </footer>
+
+      <ScrollToTop></ScrollToTop>
          </>);
 };
 

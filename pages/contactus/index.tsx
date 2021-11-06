@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './contactus.module.css';
 import styles1 from '../../components/footer/footer.module.css';
 import { FooterWeb } from '../../components/footer';
+import { ScrollToTop } from '../../components/scrolltotop';
 const ContactUs = () =>{
     return(<React.Fragment>
         <NavBarHeader></NavBarHeader>
@@ -313,6 +314,7 @@ const ContactUs = () =>{
         </div>
       </footer>
 
+      <ScrollToTop></ScrollToTop>
     </React.Fragment>);
 };
 

@@ -9,7 +9,7 @@ return (
         <div className="col-lg-4 col-md-12 col-12 ">
             <div className={styles.footerInfo}>
                 <h4 className={styles.logo}>
-                    <div className={styles.logoNav}><img src="/images/rapiscan_ltd_1.png" width="75" /><h4> ECIL - Rapiscan Ltd</h4></div>
+                    <div className={styles.logoNav}><img src="/images/rapiscan_ltd_1ss.png" width="75" /><h4> ECIL - Rapiscan Ltd</h4></div>
                 </h4>
                 <p>
                     8-1-305 & 306, 6th Floor,  <br />

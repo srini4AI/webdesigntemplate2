@@ -8,10 +8,13 @@ import "aos/dist/aos.css";
 import { FooterWeb } from '../../components/footer';
 import styles1 from '../../components/footer/footer.module.css';
 import type { NextPage } from 'next';
+import { ScrollToTop } from '../../components/scrolltotop';
  const Management = () =>{
     useEffect(()=>{
         AOS.init({
-          duration : 500
+          duration : 500,
+
+      once: true
         });
       },[])
     return (<>
@@ -164,6 +167,8 @@ import type { NextPage } from 'next';
           </div>
         </div>
       </footer>
+
+      <ScrollToTop></ScrollToTop>
     </>);
 }
 

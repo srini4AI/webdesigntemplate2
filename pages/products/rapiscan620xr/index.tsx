@@ -13,12 +13,12 @@ const rap620xr = () =>{
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                    <h2 className={styles.headingH2}>620XR</h2>
+                    <h2 className={styles.headingH2}>RAP 620XR</h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>620XR</Breadcrumb.Item>
+                        <Breadcrumb.Item active>RAP 620XR</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
 
@@ -30,11 +30,11 @@ const rap620xr = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
-           
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+          <div className="col-lg-6">
+          <img  className="img-fluid pt-5" src="/images/products/620XR.png"/></div>
+            {/* <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div> */}
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Advanced single view checkpoint screening system with outstanding features and innovative options.</p>
             <p  className={styles.productdescr}>
             The 620XR provides outstanding threat detection and a low total cost of ownership.</p>
@@ -67,23 +67,17 @@ const rap620xr = () =>{
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>DETECTION OF EXPLOSIVES AND NARCOTICS ALERT</h3>
-              <ul  className={styles.listPara}>
-                <li>Target and NARCScan are designed to assist operators in the detection of a range of explosives and narcotics respectively in real time during the scanning process by marking a potential threat on the X-ray image. Rapiscan® Systems detection algorithms are based on regulatory material analysis techniques.</li>
-              </ul>
+              <p  className={styles.listPara}>Target and NARCScan are designed to assist operators in the detection of a range of explosives and narcotics respectively in real time during the scanning process by marking a potential threat on the X-ray image. Rapiscan® Systems detection algorithms are based on regulatory material analysis techniques.</p>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>EASE OF USE PROVIDING HIGHEST THROUGHPUT</h3>  
-              <ul  className={styles.listPara}>
-	<li>With over 13 image processing tools and detection alert algorithm functions, the feature rich software allows the operator to more easily and accurately search for contraband.</li>
-</ul>
+              <p  className={styles.listPara}>With over 13 image processing tools and detection alert algorithm functions, the feature rich software allows the operator to more easily and accurately search for contraband.</p>
                 </div>
             </div>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>REGULATORY COMPLIANCE</h3>
-              <ul  className={styles.listPara}>
-                <li>620XR performance is in full compliance with the European Union regulations (EC) No. 300/2008, (EU) No. 2015/1998 and Commissions Decision C (2015)8005 for aviation security.</li>
-              </ul>
+              <p  className={styles.listPara}>620XR performance is in full compliance with the European Union regulations (EC) No. 300/2008, (EU) No. 2015/1998 and Commissions Decision C (2015)8005 for aviation security.</p>
               </div>
               
             </div>

@@ -1,6 +1,8 @@
 .headingH2 {
     font-family: "Abel", sans-serif;
     font-size: 24px;
+    font-weight:500;
+    
 }
 .breadcrumbs {
     background: #1e4356;
@@ -8,6 +10,7 @@
     text-transform: capitalize;
     padding:1.5em 0em;
     font-family: "Abel", sans-serif;
+    margin-top:5.5em;
 }
 .card-block {
     font-size: 1em;

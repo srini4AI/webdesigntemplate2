@@ -1,12 +1,16 @@
 .headingH2 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Abel", sans-serif;
     font-size: 24px;
+    font-weight:500;
+    
 }
 .breadcrumbs {
     background: #1e4356;
     color: #FFF;
     text-transform: capitalize;
     padding:1.5em 0em;
+    font-family: "Abel", sans-serif;
+    margin-top:5.5em;
 }
 
 .sechead {
@@ -20,21 +24,12 @@
 }
 .aboutH3 {
     font-weight: 400;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-family: "Francois One", sans-serif;
     color:#00adff;
     margin:15px 0px;
 }
 
-
-
-.aboutH3 {
-    font-weight: 400;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    color:#00adff;
-    margin:15px 0px;
-}
 .ulList {
     list-style: outside none none;
     margin: 0;
@@ -45,6 +40,8 @@
     display: block;
     padding: 5px 0;
     margin-left: 1em;
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
 }
 .ulList li svg {
     color: #00adff;

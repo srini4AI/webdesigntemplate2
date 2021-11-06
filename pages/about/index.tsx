@@ -7,6 +7,7 @@ import styles from './about.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import styles1 from '../../components/footer/footer.module.css';
+import { ScrollToTop } from '../../components/scrolltotop';
 const aboutUs = () =>{
     return(<React.Fragment>
         <NavBarHeader></NavBarHeader>
@@ -112,6 +113,8 @@ const aboutUs = () =>{
           </div>
         </div>
       </footer>
+
+      <ScrollToTop></ScrollToTop>
     </React.Fragment>)
 } 
 

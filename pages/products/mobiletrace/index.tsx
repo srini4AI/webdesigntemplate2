@@ -13,12 +13,12 @@ const Itemiser4DX = () =>{
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                    <h2 className={styles.headingH2}>Mobiletrace</h2>
+                    <h2 className={styles.headingH2}>Mobile Trace</h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Trace Detection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>MOBILETRACE</Breadcrumb.Item>
+                        <Breadcrumb.Item active>Mobile Trace</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
 
@@ -30,11 +30,11 @@ const Itemiser4DX = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/MobileTrace.jpeg" className="img-fluid pt-5" alt=""/></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>To help keep ahead of the growing challenges of explosives and narcotics detection, the MobileTrace handheld packs the advanced capabilities of simultaneous dual-mode detection into a powerful, user-friendly trace detector.
 
 </p>
@@ -83,7 +83,7 @@ const Itemiser4DX = () =>{
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
                         
                     </div>
-                    <p className={`${styles.circleIconp} text-center mt-3`}>ERGONOMIC<br/>DESIGN FOR GRAB-<br/>DESIGN FOR GRAB-<br/>PORTABILITY</p>
+                    <p className={`${styles.circleIconp} text-center mt-3`}>ERGONOMIC<br/>DESIGN FOR GRAB-<br/>PORTABILITY</p>
                     </div>
                     <div className="col-2">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>

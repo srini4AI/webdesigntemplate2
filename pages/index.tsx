@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-
 import styles from '../styles/Home.module.css'
 import { NavBarHeader } from '../components/navbar';
 import { BannerCarousel } from '../components/carousels';
@@ -11,8 +10,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import "animate.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBinoculars , faSearch, faBomb, faCar,  faCheckDouble,  faMapMarkerAlt, 
-  faEnvelope, faEnvelopeSquare, faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faBinoculars , faSearch, faBomb, faCar,  faCheckDouble} from '@fortawesome/free-solid-svg-icons';
 import {Button} from 'react-bootstrap';
 import CountUp from 'react-countup';
 import React from 'react';
@@ -21,12 +19,17 @@ import { ProductPortfolio } from '../components/product';
 import styles1 from '../components/footer/footer.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactForm from '../components/contactForm';
+import { ScrollToTop } from '../components/scrolltotop';
 const Home: NextPage = () => {
+  
   useEffect(()=>{
     AOS.init({
-      duration : 500
+      duration : 500,
+      once: true
     });
   },[])
+
+ 
   return (
     <div className={styles.container}>
       <NavBarHeader></NavBarHeader>
@@ -178,7 +181,8 @@ const Home: NextPage = () => {
           </div>
         </div>
       </footer>
-
+      <ScrollToTop></ScrollToTop>
+     
     </div>
   )
 }
