@@ -44,9 +44,9 @@ export const NavBarHeader =() =>{
           </NavDropdown>
           <NavDropdown  align="end" drop="end" title="Door Frame Metal Detectors" id={styles.anchorAnnual}>
          <NavDropdown.Item href="/products/metor6m">Metor 6M</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Metor 6S</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Metor 6WP</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Metor 6e</NavDropdown.Item>
+          <NavDropdown.Item href="/products/metor6s">Metor 6S</NavDropdown.Item>
+          <NavDropdown.Item href="/products/metor6wp">Metor 6WP</NavDropdown.Item>
+          <NavDropdown.Item href="/products/metor6e">Metor 6e</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown  align="end" drop="end" title="Hand Held Metal Detectors" id={styles.anchorAnnual}>
          <NavDropdown.Item href="#action/3.1">Metor 28</NavDropdown.Item>
