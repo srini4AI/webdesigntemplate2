@@ -7,18 +7,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
+import ProductList from '../../../components/productList';
 const rapiscan618xr = () =>{
     return(<><NavBarHeader></NavBarHeader>
         <section className={styles.breadcrumbs}>
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                    <h2 className={styles.headingH2}>618XR-XRH</h2>
+                    <h2 className={styles.headingH2}>RAP 618XR-XRH</h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>618XR-XRH</Breadcrumb.Item>
+                        <Breadcrumb.Item active>RAP 618XR-XRH</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
 
@@ -30,11 +31,13 @@ const rapiscan618xr = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+          <ProductList products={['/images/products/Rapiscan-618XR-EMEA.jpeg','/images/products/Rapiscan-618XR-EMEA.jpeg']}></ProductList>
+            
+            </div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>A versatile, mobile and powerful X-ray inspection system for screening in small spaces.</p>
             <p  className={styles.productdescr}>
             The 618XR is a compact and versatile X-ray screening system with exceptional image quality and excellent detection capabilities.</p>

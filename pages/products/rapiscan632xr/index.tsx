@@ -13,12 +13,12 @@ const rap632xr = () =>{
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                    <h2 className={styles.headingH2}>632XR</h2>
+                    <h2 className={styles.headingH2}>RAP 632XR</h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>632XR</Breadcrumb.Item>
+                        <Breadcrumb.Item active>RAP 632XR</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
 
@@ -30,11 +30,11 @@ const rap632xr = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/Rapiscan-632XR.jpeg" className="img-fluid pt-5" alt=""/></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>A generous tunnel size and heavy duty design for pallet and air cargo X-ray screening.</p>
             <p  className={styles.productdescr}>
             With a generous tunnel opening, a heavy-duty roller bed, and two X-ray generator options, the 632XR is designed to inspect pallets and other large cargo weighing up to 3,000 Kgs (6,614 pounds) without compromising throughput.</p>

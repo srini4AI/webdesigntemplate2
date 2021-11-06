@@ -7,18 +7,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
+import ProductList from '../../../components/productList';
 const rap628xr = () =>{
     return(<><NavBarHeader></NavBarHeader>
         <section className={styles.breadcrumbs}>
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                    <h2 className={styles.headingH2}>628XR</h2>
+                    <h2 className={styles.headingH2}>RAP 628XR</h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>628XR</Breadcrumb.Item>
+                        <Breadcrumb.Item active>RAP 628XR</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
 
@@ -30,11 +31,11 @@ const rap628xr = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+          <ProductList products={['/images/products/Rapiscan-624XR.jpeg','/images/products/624XR.jpeg']}></ProductList></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Easy loading conveyor and large tunnel for X-ray screening of large baggage and small cargo.</p>
             <p  className={styles.productdescr}>
             With a large tunnel opening of and a low conveyor, the 628XR is designed for customers that need easy loading and unloading of small cargo as well as baggage and large parcels during screening process for aviation check-in, air cargo and customs inspection.</p>

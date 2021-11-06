@@ -13,12 +13,12 @@ const rap638xr = () =>{
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                    <h2 className={styles.headingH2}>638XR</h2>
+                    <h2 className={styles.headingH2}>RAP 638XR</h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>638XR</Breadcrumb.Item>
+                        <Breadcrumb.Item active>RAP 638XR</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
 
@@ -30,11 +30,11 @@ const rap638xr = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+          <img src="/images/products/Rapiscan-632XR.jpeg" className="img-fluid pt-5" alt=""/></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Easy loading conveyor and large tunnel for screening of ULD type freight and ISO standard pallets.</p>
             <p  className={styles.productdescr}>
             The 638XR is an advanced X-ray system for screening of ULD type, ISO standard, lower deck and large cargo pallet type freight. It has a large tunnel opening of 1,837  mm x 1,800 mm and uses innovative screening technology with explosives and narcotics detection alert, to generate an outstanding high resolution view of the object under inspection.</p>

@@ -47,7 +47,7 @@
     text-align: justify;
 }
 .headingH2 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Abel", sans-serif;
     font-size: 24px;
 }
 .breadcrumbs {
@@ -55,5 +55,7 @@
     color: #FFF;
     text-transform: capitalize;
     padding:1.5em 0em;
+    font-family: "Abel", sans-serif;
     margin-top:5.5em;
+
 }

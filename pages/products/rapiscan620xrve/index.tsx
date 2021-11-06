@@ -13,12 +13,12 @@ const rap620xrve = () =>{
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                    <h2 className={styles.headingH2}>620XRve</h2>
+                    <h2 className={styles.headingH2}>RAP 620XRve</h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>620XRve</Breadcrumb.Item>
+                        <Breadcrumb.Item active>RAP 620XRve</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
 
@@ -30,11 +30,12 @@ const rap620xrve = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+          <img  className="img-fluid pt-5" src="/images/products/620xr-ve.jpeg"/>
+            </div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Ultra-compact 620mm By 420mm Tunnel Checkpoint Security Screening System For Critical Infrastructure Protection</p>
             <p  className={styles.productdescr}>
             The new 620XR ve is a dual mode, dual energy 620 mm by 420 mm tunnel ultra-compact X-ray security screening system with superb imaging performance.

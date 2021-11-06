@@ -30,11 +30,11 @@ const metor6m = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/Metor-6M.jpeg" className="img-fluid pt-5" alt=""/></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Enhanced security features integrated for people screening at checkpoints and access controlled entries.</p>
             <p  className={styles.productdescr}>
             The Metor 6M is a versatile multi-purpose multi-zone Walk-Through Metal Detector (WTMD) used for various threat items and contraband detection.
@@ -111,9 +111,7 @@ const metor6m = () =>{
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>RADIATION DETECTION</h3>
-              <ul  className={styles.listPara}>
-                <li>Metor 6M can be integrated with radiation detection capability to combine multi threat detection of both metal and radioactive materials. The configuration enables either gamma or gamma/neutron detection options and is available as a field upgradeable kit.</li>
-              </ul>
+              <p  className={styles.listPara}>Metor 6M can be integrated with radiation detection capability to combine multi threat detection of both metal and radioactive materials. The configuration enables either gamma or gamma/neutron detection options and is available as a field upgradeable kit.</p>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>RANDOM ALARM FUNCTION</h3>  
@@ -127,16 +125,14 @@ const metor6m = () =>{
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>ENHANCED SECURITY</h3>
-              <ul  className={styles.listPara}>
-                <li>The latest features for advanced security are available on the Metor 6M. Calibration guard, power guard and ready-state violation all protect against unwanted tampering to the unit. Fully configurable user levels allow for unprecedented control over who can view and change settings on the Metor 6M.</li>
-              </ul>
+              <p  className={styles.listPara}>
+              The latest features for advanced security are available on the Metor 6M. Calibration guard, power guard and ready-state violation all protect against unwanted tampering to the unit. Fully configurable user levels allow for unprecedented control over who can view and change settings on the Metor 6M.
+              </p>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>INTELLIGENT TRAFFIC COUNTERS FOR RELIABLE STATISTICS</h3>  
-              <ul  className={styles.listPara}>
-                <li>Metor 6M is built with intelligent and virtually invisible traffic counters which are integrated inside the coil panels. Counters are bi-directional with a decrease mode. Alarms, passengers and alarm rates can all be counted.</li>
- </ul>
-
+              <p  className={styles.listPara}>
+                Metor 6M is built with intelligent and virtually invisible traffic counters which are integrated inside the coil panels. Counters are bi-directional with a decrease mode. Alarms, passengers and alarm rates can all be counted.</p>
                 </div>
             </div>
             <div className="row">
@@ -150,17 +146,13 @@ const metor6m = () =>{
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>ZONE DISPLAY</h3>  
-              <ul  className={styles.listPara}>
-	<li>Accurate 20 segment zone display locates the alarmed item(s) on a person quickly making the screening process effective and improving the throughput.
+              <p  className={styles.listPara}>
+	Accurate 20 segment zone display locates the alarmed item(s) on a person quickly making the screening process effective and improving the throughput.
 
-</li>
-</ul>
+</p>
 <h3 className={styles.aboutH3}>EASY TO INSTALL AND OPERATE</h3>  
-              <ul  className={styles.listPara}>
-                <li>With its immunity to electromagnetic interference and vibration, the Metor 6M is easy to install in the most demanding environments. Several units can be placed in close proximity to one another, increasing the level of flexibility when planning an installation site.
-
-</li>
-</ul>
+<p  className={styles.listPara}>With its immunity to electromagnetic interference and vibration, the Metor 6M is easy to install in the most demanding environments. Several units can be placed in close proximity to one another, increasing the level of flexibility when planning an installation site.
+</p>
                 </div>
                 
             </div>

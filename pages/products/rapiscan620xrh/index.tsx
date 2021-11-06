@@ -13,12 +13,12 @@ const rap620xrh = () =>{
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                    <h2 className={styles.headingH2}>620XRH</h2>
+                    <h2 className={styles.headingH2}>RAP 620XRH</h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>620XRH</Breadcrumb.Item>
+                        <Breadcrumb.Item active>RAP 620XRH</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
 
@@ -30,11 +30,12 @@ const rap620xrh = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+          <img  className="img-fluid pt-5" src="/images/products/620XR.png"/></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Aviation checkpoint screening system with best-in-class penetration, wire resolution and spatial resolution.</p>
             <p  className={styles.productdescr}>
             The new 620XR HP is a high performance 620 mm by 420 mm tunnel aviation checkpoint screening system with best in class image quality and excellent threat detection alert capabilities.</p>

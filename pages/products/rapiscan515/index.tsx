@@ -18,10 +18,9 @@ const rap515 = () =>{
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>Rap 515</Breadcrumb.Item>
+                        <Breadcrumb.Item active>RAP 515</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
-
             </div>
         </section>
         <section id="about" className="about">
@@ -30,11 +29,11 @@ const rap515 = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img  className="img-fluid pt-5" src="/images/products/RAP-515.jpeg"/></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>The Rapiscan Model 515 is an x-ray security inspection system designed for customers with new and expanding security requirements. The Model 515 has a fully configurable technology menu, which allows the user to choose the best value for their application and budget. Its compact design and removable control panel make the system an excellent choice for numerous security applications. The system offers a tunnel opening of 640mm (25.2 inches) wide by 430mm (16.9 inches) high to accommodate large package sizes.</p>
             <p  className={styles.productdescr}>
             Intel Pentium computer technology is the driving force in all of our developments. The Model 515 base configuration includes multi-energy technology with the following standard features: Crystal Clear™, Density Threat Alert, Edge Enhancement, Variable Gamma, Inverse Video, Organic/Inorganic Stripping, Pseudo Color and Variable Zoom.</p>

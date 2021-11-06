@@ -8,6 +8,7 @@ import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-ic
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import { ScrollToTop } from '../../../components/scrolltotop';
+import ProductList from '../../../components/productList';
 const Itemiser4DX = () =>{
     return(<><NavBarHeader></NavBarHeader>
         <section className={styles.breadcrumbs}>
@@ -30,11 +31,11 @@ const Itemiser4DX = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+          <ProductList products={['/images/products/Itemiser-4DX-1.jpg','/images/products/Itemiser-4DX-2.jpeg']}></ProductList></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Aviation approved non-radioactive-based explosives and narcotics detection.</p>
             <p  className={styles.productdescr}>
             Using a non-radioactive ionization source and simultaneous, dual-mode detection, Itemiser® 4DX can detect a broad range of current market threat explosives and narcotics without the use of a radioactive source, thereby eliminating the need for annual wipe tests and licensing while reducing shipping challenges.

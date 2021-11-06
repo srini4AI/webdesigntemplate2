@@ -8,6 +8,7 @@ import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-ic
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import { ScrollToTop } from '../../../components/scrolltotop';
+import ProductList from '../../../components/productList';
 const Itemiser3E = () =>{
     return(<><NavBarHeader></NavBarHeader>
         <section className={styles.breadcrumbs}>
@@ -30,11 +31,12 @@ const Itemiser3E = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
-           
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+          <div className="col-lg-6">
+          <ProductList products={['/images/products/Itemiser3E-1.jpeg','/images/products/Itemiser3E-2.jpeg']}></ProductList>
+            {/* <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/> */}
+            </div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Rapiscan Systems flexible, lightweight desktop detector simultaneously analyzes both positive and negative ions, allowing for advanced explosive and narcotic contraband detection.</p>
             <p  className={styles.productdescr}>
             The Itemiser 3 Enhanced is the first trace detector in the world to simultaneously detect positive and negative ions, enabling the detection of a broad range of explosives and narcotics. Detection of both positive and negative ions allows for effective identification from a single sample. It delivers fast, simultaneous explosives and narcotics detection in a package that is ergonomic and portable.
