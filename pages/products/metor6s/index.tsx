@@ -140,41 +140,34 @@ const metor6s = () =>{
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>RADIATION DETECTION</h3>
               <p className={styles.listPara}>
-                The latest features for advanced security are available on the Metor 6M. Calibration guard, power guard and ready-state violation all protect against unwanted tampering to the unit. Fully configurable user levels allow for unprecedented control over who can view and change settings on the Metor 6M.</p>
+              Metor 6S can be integrated with radiation detection capability to combine multi threat detection of both metal and radioactive materials. The configuration enables either gamma or gamma/neutron detection options and is available as a field upgradeable kit.</p>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>INTELLIGENT TRAFFIC COUNTERS FOR RELIABLE STATISTICS</h3>  
               <p  className={styles.listPara}>
-               Metor 6M is built with intelligent and virtually invisible traffic counters which are integrated inside the coil panels. Counters are bi-directional with a decrease mode. Alarms, passengers and alarm rates can all be counted.</p>
+              Metor 6S is built with intelligent and virtually invisible traffic counters which are integrated inside the coil panels. Counters are bi-directional with a decrease mode. Alarms, people and alarm rates can all be counted.</p>
 
                 </div>
             </div>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
-              <h3 className={styles.aboutH3}>ENHANCED FEATURES FOR EASIER USABILITY</h3>
-              <ul  className={styles.listPara}>
-                <li>Automated sensitivity and floor sensitivity functions make the calibration process easy, eliminating the time consuming trial and error method.</li>
-                <li>Automated frequency function selects the optimum operating frequency for the installation environment or in case of side-by-side use of more than one unit.</li>
-                <li>Preset Detection Programs – The Metor® 6M is delivered with multiple preset detection programs based on international standards, ready to use immediately.</li>
-              </ul>
+              <h3 className={styles.aboutH3}>ENHANCED SECURITY</h3>
+              <p  className={styles.listPara}>
+              The latest features for advanced security are available on the Metor 6S. Calibration guard, power guard and ready-state violation all protect against unwanted tampering to the machine. Fully configurable user levels allow for unprecedented control over who can view and change settings on the Metor® 6S.</p>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
-              <h3 className={styles.aboutH3}>ZONE DISPLAY</h3>  
-              <ul  className={styles.listPara}>
-	<li>Accurate 20 segment zone display locates the alarmed item(s) on a person quickly making the screening process effective and improving the throughput.
-
-</li>
-</ul>
-<h3 className={styles.aboutH3}>EASY TO INSTALL AND OPERATE</h3>  
-              <ul  className={styles.listPara}>
-                <li>With its immunity to electromagnetic interference and vibration, the Metor 6M is easy to install in the most demanding environments. Several units can be placed in close proximity to one another, increasing the level of flexibility when planning an installation site.
-
-</li>
-</ul>
-                </div>
-                
-            </div>
-        </div>
+              <h3 className={styles.aboutH3}>LOCATION DISPLAY</h3>  
+              <p className={styles.listPara}>20 segment zone display locates the alarmed item(s) on a person quickly enhancing the screening process and throughput.</p></div>
+              <div className="row">
+              <div className="col-lg-6 col-md-6 col-12"><h3 className={styles.aboutH3}>ENHANCED FEATURES FOR EASIER USABILITY</h3>  
+              <p className={styles.listPara}> Automated sensitivity and floor sensitivity functions make the calibration process easy, eliminating the time consuming trial and error method.</p>
+              <p className={styles.listPara}> Automated frequency function selects the optimum operating frequency for the installation environment or in case of side-by-side use of more than one unit.</p>
+              <p className={styles.listPara}>Preset Detection Programs – The Metor 6S is delivered with multiple preset detection programs for the different levels of NIJ-0601.02 as well as for the detection of small magnetic or non-magnetic items and objects made of mixed alloys, ready to use immediately.</p>
+                 </div>
+              <div className="col-lg-6 col-md-6 col-12">  <h3 className={styles.aboutH3}> EASY TO INSTALL AND OPERATE</h3>
+              <p className={styles.listPara}>With its immunity to electromagnetic interference and vibration, the Metor 6S is easy to install in the most demanding environments. Several units can be placed in close proximity to one another, increasing the level of flexibility when planning an installation site.</p>
+               </div>
+       </div></div></div>
     </section>
     <footer id={styles1.footer}>
         <div className={styles1.footerTop}>

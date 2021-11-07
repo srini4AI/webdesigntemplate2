@@ -49,11 +49,11 @@ export const NavBarHeader =() =>{
           <NavDropdown.Item href="/products/metor6e">Metor 6e</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown  align="end" drop="end" title="Hand Held Metal Detectors" id={styles.anchorAnnual}>
-         <NavDropdown.Item href="#action/3.1">Metor 28</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Metor 28e</NavDropdown.Item>
+         <NavDropdown.Item href="/products/metor28">Metor 28</NavDropdown.Item>
+          <NavDropdown.Item href="/products/metor28e">Metor 28e</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown  align="end" drop="end" title="Vehicle Mount Baggage Scanners" id={styles.anchorAnnual}>
-         <NavDropdown.Item href="#action/3.1">RAP 636SV</NavDropdown.Item>
+         <NavDropdown.Item href="/products/rap636sv">RAP 636SV</NavDropdown.Item>
           </NavDropdown>
         </NavDropdown>
         
