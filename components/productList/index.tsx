@@ -26,8 +26,8 @@ const ProductList = ({products}:ProductListProps) =>{
 
 
     >
-        {products.map((value:any)=>
-        <SwiperSlide><img src={value} className="img-fluid"/></SwiperSlide>
+        {products.map((value:any, index:number)=>
+        <SwiperSlide key={index}><img src={value} className="img-fluid"/></SwiperSlide>
         )}
     </Swiper>
     </React.Fragment>);

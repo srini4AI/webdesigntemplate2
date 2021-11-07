@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-
+import Link from 'next/link';
 export const FooterWeb = () =>{
 return (
 <React.Fragment>
@@ -31,11 +31,11 @@ return (
         <div className={`${'col-lg-4 col-md-6 d-none d-lg-block px-5'} ${styles.footerLinks}`}>
             <h4>Useful Links</h4>
             <ul>
-                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="/">Home</a></li>
-                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="/about">About us</a></li>
-                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="/maintenance">Maintenance</a></li>
-                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="/contactus">Contact Us</a></li>
-                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <a href="/management">Management</a></li>
+                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <Link  href="/"><a>Home</a></Link></li>
+                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <Link href="/about"><a>About us</a></Link></li>
+                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <Link href="/maintenance"><a>Maintenance</a></Link></li>
+                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <Link href="/contactus"><a>Contact Us</a></Link></li>
+                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <Link href="/management"><a>Management</a></Link></li>
                                             </ul>
                                         </div>
 
