@@ -7,11 +7,11 @@ import styles from './navbar.module.css';
 export const NavBarHeader =() =>{
     return(
     <>
-    <div style={{"backgroundColor":"#006aae", height:"50px", width:"100%","position": "fixed",zIndex:9999, "top": 0}}>
+    <div style={{"backgroundColor":"#006aae", height:"38px", width:"100%","position": "fixed",zIndex:9999, "top": 0}}>
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <div className="col-12 col-lg-3 col-md-3 float-end"> <p  className="float-end" style={{"color":"white", "lineHeight":"52px", "fontSize":"18px", "fontFamily":"Abel, sans-serif"}}><FontAwesomeIcon icon={faPhoneAlt}  size="lg" /> Toll Free: 9999999999999</p></div>
+          <div className="col-12 col-lg-3 col-md-3 float-end"> <p  className="float-end" style={{"color":"white", "lineHeight":"36px", "fontSize":"16px", "fontFamily":"Abel, sans-serif"}}><FontAwesomeIcon icon={faPhoneAlt}  size="lg" /> Toll Free: 9999999999999</p></div>
         </div>
       </div>
     </div>
@@ -55,16 +55,16 @@ export const NavBarHeader =() =>{
           </NavDropdown>
           <NavDropdown  align="end" drop="end" title="Door Frame Metal Detectors" id={styles.anchorAnnual}>
          <NavDropdown.Item href="/products/metor6m">Metor 6M</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Metor 6S</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Metor 6WP</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Metor 6e</NavDropdown.Item>
+          <NavDropdown.Item href="/products/metor6s">Metor 6S</NavDropdown.Item>
+          <NavDropdown.Item href="/products/metor6wp">Metor 6WP</NavDropdown.Item>
+          <NavDropdown.Item href="/products/metor6e">Metor 6e</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown  align="end" drop="end" title="Hand Held Metal Detectors" id={styles.anchorAnnual}>
-         <NavDropdown.Item href="#action/3.1">Metor 28</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Metor 28e</NavDropdown.Item>
+         <NavDropdown.Item href="/products/metor28">Metor 28</NavDropdown.Item>
+          <NavDropdown.Item href="/products/metor28e">Metor 28e</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown  align="end" drop="end" title="Vehicle Mount Baggage Scanners" id={styles.anchorAnnual}>
-         <NavDropdown.Item href="#action/3.1">RAP 636SV</NavDropdown.Item>
+         <NavDropdown.Item href="/products/rap636sv">RAP 636SV</NavDropdown.Item>
           </NavDropdown>
         </NavDropdown>
         

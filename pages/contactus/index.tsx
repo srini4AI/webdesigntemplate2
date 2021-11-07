@@ -75,7 +75,7 @@ const ContactUs = () =>{
             <div className={styles.resumeItem}>
               <h4>Chennai</h4>
               <p>ECIL-Rapiscan Ltd</p>
-              <p>Regency's AshianaAppt</p>
+              <p>Regency&apos;s AshianaAppt</p>
               <p>G3, Ground Floor</p>
               <p>No.15/7, Asargaana Street, Alandur</p>
               <p >Chennai - 600 016</p>
@@ -242,7 +242,7 @@ const ContactUs = () =>{
               <p>Flat No. 12, 3rd Floor</p>
               <p>Chinar Co-operative Society</p>
               <p>Behind Homeguard Office</p>
-              <p>1707, "B" Shivaji Nagar</p>
+              <p>1707, &ldquo;B&rdquo; Shivaji Nagar</p>
               <p>Pune - 411 005, Maharashtra</p>
               <p>TEL: 020 - 3020 3600</p>
             </div>

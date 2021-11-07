@@ -16,7 +16,7 @@ const Itemiser3E = () =>{
 
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>ITEMISER 3E</h2>
-                    <Breadcrumb>
+                    <Breadcrumb className="d-none d-sm-block">
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Trace Detection</Breadcrumb.Item>
@@ -64,7 +64,7 @@ const Itemiser3E = () =>{
     <section>
         <div className="container">
             <div className="row">
-                    <div className="offset-md-1  col-2">
+                    <div className="offset-md-1 col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"  color="white" size="2x"  />
@@ -72,7 +72,7 @@ const Itemiser3E = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>60 MINUTE<br/> BATTERY BACKUP</p>
                     </div>
-                    <div className="col-2">
+                    <div className=" col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -80,7 +80,7 @@ const Itemiser3E = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>PORTABLE &<br/>VERSATILE</p>
                     </div>
-                    <div className="col-2">
+                    <div className=" col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -88,7 +88,7 @@ const Itemiser3E = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>SWIPE OR VACUUM</p>
                     </div>
-                    <div className="col-2">
+                    <div className=" col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -96,7 +96,7 @@ const Itemiser3E = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>EASE OF USE</p>
                     </div>
-                    <div className="col-2">
+                    <div className=" col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />

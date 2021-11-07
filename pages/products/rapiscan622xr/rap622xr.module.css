@@ -44,22 +44,14 @@
 .listPara {
     font-family: "Abel", sans-serif;
     font-size: 20px;
-    text-align: justify;
 }
-
-
-
 .headingH2 {
-    font-family: "Abel", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
-    font-weight:500;
-    
 }
 .breadcrumbs {
     background: #1e4356;
     color: #FFF;
     text-transform: capitalize;
     padding:0.8em 0em;
-    font-family: "Abel", sans-serif;
-    margin-top: 7.3em;
 }

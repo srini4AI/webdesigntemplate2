@@ -15,7 +15,7 @@ const rap620xr = () =>{
 
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>RAP 620XR</h2>
-                    <Breadcrumb>
+                    <Breadcrumb className="d-none d-sm-block">
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
