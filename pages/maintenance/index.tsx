@@ -84,7 +84,7 @@ const Maintenance = () =>{
           </div>
           <div className="col-lg-12">
           <h3 className={styles.aboutH3}>Maintenance Contracts:</h3>
-          <p className={styles.aboutp}>ECIL Rapiscan Ltd offers after-sales service with three standard levels of contracts according to the needs and budget. The service contracts are available for purchase during the purchase of the machine or when the equipment's warranty is expiring. </p>
+          <p className={styles.aboutp}>ECIL Rapiscan Ltd offers after-sales service with three standard levels of contracts according to the needs and budget. The service contracts are available for purchase during the purchase of the machine or when the equipment&apos;s warranty is expiring. </p>
           <p className={styles.aboutp}>We can also customize any Contract to meet a customer’s specific requirements.  </p>
         </div>
         </div>

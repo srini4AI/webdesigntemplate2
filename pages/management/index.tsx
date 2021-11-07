@@ -48,7 +48,7 @@ import { ScrollToTop } from '../../components/scrolltotop';
         <img className="img-thumbnail rounded float-end mx-4 mt-4" src="https://picsum.photos/150?image=380" alt=""/>
       </div>
     </div>
-    <p   className={`text-start  ${styles.pDescr}   mx-3 mt-3`}>Mr. Chopra is also the founder of OSI Systems, Inc. USA and has served as President, CEO and as a Director since the Company's inception in May 1987. Mr. Chopra holds a Bachelor of Science in Electronics from Punjab Engineering College and a Master of Science degree in Semiconductor Electronics from the University of Massachusetts, Amherst.</p>
+    <p   className={`text-start  ${styles.pDescr}   mx-3 mt-3`}>Mr. Chopra is also the founder of OSI Systems, Inc. USA and has served as President, CEO and as a Director since the Company&apos;s inception in May 1987. Mr. Chopra holds a Bachelor of Science in Electronics from Punjab Engineering College and a Master of Science degree in Semiconductor Electronics from the University of Massachusetts, Amherst.</p>
   </div>
   
     </div>
