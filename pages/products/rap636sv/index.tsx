@@ -14,7 +14,7 @@ const rap636sv = () =>{
 
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>RAP 636SV</h2>
-                    <Breadcrumb>
+                    <Breadcrumb className="d-none d-sm-block">
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>RAP 636SV</Breadcrumb.Item>
@@ -31,7 +31,7 @@ const rap636sv = () =>{
         <div className="row my-4">
           <div className="col-lg-4">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/Rapiscan-MobileCheck-636SV.jpeg" className="img-fluid pt-5" alt=""/></div>
           
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>The Rapiscan MobileCheck™ 636SV is a state of the art self-contained mobile X-ray screening unit with a large tunnel opening of 1,000mm (40in) by 1,000mm (40in).

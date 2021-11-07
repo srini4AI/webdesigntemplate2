@@ -14,7 +14,7 @@ const metor6e = () =>{
 
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>METOR 6E</h2>
-                    <Breadcrumb>
+                    <Breadcrumb className="d-none d-sm-block">
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>people screening</Breadcrumb.Item>
@@ -30,11 +30,11 @@ const metor6e = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/Metor-6E.jpg" className="img-fluid pt-5" alt=""/></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Exceptional operational performance and versatile capabilities for high-security checkpoints.</p>
             <p  className={styles.productdescr}>
             Metor 6E is a state-of- the-art walk-through metal detector developed for the most demanding high profile security screening applications.
@@ -66,7 +66,7 @@ const metor6e = () =>{
     <section>
         <div className="container">
             <div className="row">
-                    <div className="offset-md-1  col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"  color="white" size="2x"  />
@@ -74,7 +74,7 @@ const metor6e = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}> 60 SEGMENT <br/> INDICATION FOR <br/> ALARM <br/> RESOLUTION</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -82,7 +82,7 @@ const metor6e = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>INDEPENDENTLY <br/> ADJUSTABLE <br/> DETECTION ZONES</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -90,7 +90,7 @@ const metor6e = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}> ALARM <br/> DISTRIBUTION <br/> DATA FOR <br/> ANALYSES OF <br/> RESULTED ALARMS</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -98,7 +98,7 @@ const metor6e = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>BUILT-IN <br/> ADVANCED <br/> FEATURES</p>
                     </div>
-                    <div className="offset-md-1  col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"  color="white" size="2x"  />
@@ -106,7 +106,7 @@ const metor6e = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>AUTOMATIC <br/> INTERACTIVE <br/> SENSITIVITY <br/> ADJUSTMENT</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -114,7 +114,7 @@ const metor6e = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>AUTOMATIC <br/> FREQUENCY <br/> SELECTION</p>
                     </div>
-                    <div className="col-2">
+                    <div className="offset-md-4 col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -122,7 +122,7 @@ const metor6e = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>AUTOMATIC <br/>POWER GUARD</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />

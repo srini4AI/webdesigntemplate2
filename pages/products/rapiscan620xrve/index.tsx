@@ -15,7 +15,7 @@ const rap620xrve = () =>{
 
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>RAP 620XRve</h2>
-                    <Breadcrumb>
+                    <Breadcrumb className="d-none d-sm-block">
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
@@ -70,7 +70,7 @@ The 620XR ve implements rapiscan’s proprietary X-ray imaging technique allowin
     <section>
         <div className="container">
         <div className="row">
-                    <div className="offset-md-3  col-2">
+                    <div className="offset-md-3  col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"  color="white" size="2x"  />
@@ -78,7 +78,7 @@ The 620XR ve implements rapiscan’s proprietary X-ray imaging technique allowin
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>SUPERB IMAGE <br/> QUALITY</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -86,7 +86,7 @@ The 620XR ve implements rapiscan’s proprietary X-ray imaging technique allowin
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>HIGHLY RELIABLE</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />

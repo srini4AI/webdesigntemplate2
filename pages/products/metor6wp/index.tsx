@@ -14,7 +14,7 @@ const metor6wp = () =>{
 
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>METOR 6WP</h2>
-                    <Breadcrumb>
+                    <Breadcrumb  className="d-none d-sm-block">
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>people screening</Breadcrumb.Item>
@@ -30,11 +30,11 @@ const metor6wp = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/Metor-6WP.jpg" className="img-fluid pt-5" alt=""/></div>
           
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Uncompromised detection for fast people screening of large crowds.</p>
             <p  className={styles.productdescr}>
             The Metor 6WP is a versatile, outdoor weatherproof state-of-the-art Walk-Through Metal Detector (WTMD) that combines advanced metal detection technology with an appealing, but practical design..
@@ -68,7 +68,7 @@ const metor6wp = () =>{
     <section>
         <div className="container">
             <div className="row">
-                    <div className="offset-md-1  col-2">
+                    <div className="offset-md-2  col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"  color="white" size="2x"  />
@@ -76,7 +76,7 @@ const metor6wp = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>AUTOMATIC <br/>INTERACTIVE <br/> SENSITIVITY <br/> ADJUSTMENT</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -84,7 +84,7 @@ const metor6wp = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>AUTOMATIC <br/>FREQUENCY<br/>SELECTION</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -92,7 +92,7 @@ const metor6wp = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>AUTOMATIC<br/>POWER GUARD</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />

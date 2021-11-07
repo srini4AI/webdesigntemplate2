@@ -15,7 +15,7 @@ const Itemiser = () =>{
 
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>Itemiser 5X</h2>
-                    <Breadcrumb>
+                    <Breadcrumb className="d-none d-sm-block">
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>Itemiser 5X</Breadcrumb.Item>
@@ -58,7 +58,7 @@ const Itemiser = () =>{
     <section>
         <div className="container">
             <div className="row">
-                    <div className="offset-md-1  col-2">
+                    <div className="offset-md-1  col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"  color="white" size="2x"  />
@@ -66,7 +66,7 @@ const Itemiser = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>INCREASED USER <br/> EXPERIENCE</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -74,7 +74,7 @@ const Itemiser = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>COST EFFECTIVE</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -82,7 +82,7 @@ const Itemiser = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>RELIABLE<br/></p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -90,7 +90,7 @@ const Itemiser = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>PORTABILITY<br/></p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />

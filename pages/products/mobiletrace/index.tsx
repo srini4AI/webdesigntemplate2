@@ -15,7 +15,7 @@ const Itemiser4DX = () =>{
 
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>Mobile Trace</h2>
-                    <Breadcrumb>
+                    <Breadcrumb  className="d-none d-sm-block">
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Trace Detection</Breadcrumb.Item>
@@ -62,7 +62,7 @@ const Itemiser4DX = () =>{
     <section>
         <div className="container">
             <div className="row">
-                    <div className="offset-md-1  col-2">
+                    <div className="offset-md-1  col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"  color="white" size="2x"  />
@@ -70,7 +70,7 @@ const Itemiser4DX = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>FLEXIBLE USER<br/>INTERFACE</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -78,7 +78,7 @@ const Itemiser4DX = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>HOT SWAPPABLE,<br/>STATE-OF-THE-ART <br/>BATTERY FOR LONG </p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -86,7 +86,7 @@ const Itemiser4DX = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>ERGONOMIC<br/>DESIGN FOR GRAB-<br/>PORTABILITY</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />
@@ -94,7 +94,7 @@ const Itemiser4DX = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>PARTICLE AND <br/>VAPOR DETECTION</p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-sm-4  col-12">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />

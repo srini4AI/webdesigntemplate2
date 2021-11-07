@@ -201,7 +201,7 @@ section#about  h2::after {
 
 
 section#clients .section-title h2,section#contacts .section-title h2,section#products .section-title h2 {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 800;
   margin: 24px 0px;
   padding: 30px 0px;
@@ -263,7 +263,7 @@ div.swiper-button-next{
   top:43%;
 }
 .fixed-top {
-  top: 50px !important;
+  top: 31px !important;
 }
 .products .member .member-info h4 {
    
@@ -271,7 +271,7 @@ div.swiper-button-next{
   display: block;
   display: -webkit-box;
   max-width: 100%;
-  font-size: 22px;
+  font-size: 20px;
   /* color: #098ccb; */
   height: 75px;
   font-family: "Francois One", sans-serif;

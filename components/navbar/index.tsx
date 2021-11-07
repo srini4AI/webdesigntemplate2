@@ -7,11 +7,11 @@ import styles from './navbar.module.css';
 export const NavBarHeader =() =>{
     return(
     <>
-    <div style={{"backgroundColor":"#006aae", height:"50px", width:"100%","position": "fixed",zIndex:9999, "top": 0}}>
+    <div style={{"backgroundColor":"#006aae", height:"38px", width:"100%","position": "fixed",zIndex:9999, "top": 0}}>
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <div className="col-12 col-lg-3 col-md-3 float-end"> <p  className="float-end" style={{"color":"white", "lineHeight":"52px", "fontSize":"18px", "fontFamily":"Abel, sans-serif"}}><FontAwesomeIcon icon={faPhoneAlt}  size="lg" /> Toll Free: 9999999999999</p></div>
+          <div className="col-12 col-lg-3 col-md-3 float-end"> <p  className="float-end" style={{"color":"white", "lineHeight":"36px", "fontSize":"16px", "fontFamily":"Abel, sans-serif"}}><FontAwesomeIcon icon={faPhoneAlt}  size="lg" /> Toll Free: 9999999999999</p></div>
         </div>
       </div>
     </div>
