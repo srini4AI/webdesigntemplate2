@@ -29,7 +29,7 @@ import { ScrollToTop } from '../../components/scrolltotop';
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>Service Network & Our Strengths</h2>
                     <Breadcrumb>
-                        <Breadcrumb.Item href="#">Company</Breadcrumb.Item>
+                        <Breadcrumb.Item href="#">Service Support</Breadcrumb.Item>
                         <Breadcrumb.Item active>Service Network & Our Strengths</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>

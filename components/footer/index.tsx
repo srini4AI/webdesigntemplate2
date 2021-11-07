@@ -31,11 +31,11 @@ return (
         <div className={`${'col-lg-4 col-md-6 d-none d-lg-block px-5'} ${styles.footerLinks}`}>
             <h4>Useful Links</h4>
             <ul>
-                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="#">Home</a></li>
-                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="#">Who we are</a></li>
-                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="#">Clients</a></li>
-                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="#">Careers</a></li>
-                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <a href="#">Management</a></li>
+                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="/">Home</a></li>
+                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="/about">About us</a></li>
+                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="/maintenance">Maintenance</a></li>
+                <li>     <FontAwesomeIcon icon={faChevronRight} size="2x" /> <a href="/contactus">Contact Us</a></li>
+                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <a href="/management">Management</a></li>
                                             </ul>
                                         </div>
 

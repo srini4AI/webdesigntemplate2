@@ -12,9 +12,10 @@ export const SliderWeb =  () => {
   return (
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={30}
       slidesPerView={3}
+      autoplay={{ delay: 3000 }}
       navigation
       breakpoints={{
         "@0.00": {

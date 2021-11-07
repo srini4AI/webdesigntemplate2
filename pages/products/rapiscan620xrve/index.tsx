@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
+import { ScrollToTop } from '../../../components/scrolltotop';
 const rap620xrve = () =>{
     return(<><NavBarHeader></NavBarHeader>
         <section className={styles.breadcrumbs}>
@@ -133,6 +134,7 @@ The 620XR ve implements rapiscan’s proprietary X-ray imaging technique allowin
         </div>
       </footer>
         
+      <ScrollToTop></ScrollToTop>
         </>)
 };
 

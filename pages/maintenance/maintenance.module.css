@@ -22,8 +22,8 @@
 
 .resume .resumeItem h4 {
     line-height: 18px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     text-transform: uppercase;
     font-family: "Francois One", sans-serif;
     color: #0563bb;
@@ -35,6 +35,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
     color: #45505b;
+}
+.tailMade {
+    list-style-type: none;
+    padding: 0px 5px;
 }
 .aboutp {
     text-align: justify;

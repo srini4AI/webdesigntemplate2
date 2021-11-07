@@ -61,9 +61,9 @@ export const NavBarHeader =() =>{
         <NavDropdown.Item href="/service" id={styles.anchorAnnual}>Service Network & Our Strengths</NavDropdown.Item>
         <NavDropdown.Item href="/maintenance" id={styles.anchorAnnual}>Maintenance</NavDropdown.Item>
         <NavDropdown.Item href="/spares" id={styles.anchorAnnual}>Spares</NavDropdown.Item>
-        <NavDropdown.Item href="/management" id={styles.anchorAnnual}>Maintenance Management System</NavDropdown.Item>
+        <NavDropdown.Item href="/maintenancemanage" id={styles.anchorAnnual}>Maintenance Management System</NavDropdown.Item>
         <NavDropdown.Item href="/training" id={styles.anchorAnnual}>Training</NavDropdown.Item>
-        <NavDropdown.Item href="/audits" id={styles.anchorAnnual}>Safety Audits</NavDropdown.Item>
+        <NavDropdown.Item href="/safetyaudits" id={styles.anchorAnnual}>Safety Audits</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Career" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/opening" id={styles.anchorAnnual}>Current Opening</NavDropdown.Item>

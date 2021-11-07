@@ -8,6 +8,7 @@ import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-ic
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import ProductList from '../../../components/productList';
+import { ScrollToTop } from '../../../components/scrolltotop';
 const rapiscan618xr = () =>{
     return(<><NavBarHeader></NavBarHeader>
         <section className={styles.breadcrumbs}>
@@ -103,6 +104,7 @@ const rapiscan618xr = () =>{
         </div>
       </footer>
         
+      <ScrollToTop></ScrollToTop>
         </>)
 };
 

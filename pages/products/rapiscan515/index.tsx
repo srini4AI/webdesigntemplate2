@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
+import { ScrollToTop } from '../../../components/scrolltotop';
 const rap515 = () =>{
     return(<><NavBarHeader></NavBarHeader>
         <section className={styles.breadcrumbs}>
@@ -98,6 +99,7 @@ const rap515 = () =>{
         </div>
       </footer>
         
+      <ScrollToTop></ScrollToTop>
         </>)
 };
 
