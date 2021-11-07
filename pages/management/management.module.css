@@ -1,0 +1,65 @@
+.headingH2 {
+    font-family: "Abel", sans-serif;
+    font-size: 24px;
+    font-weight:500;
+    
+}
+.breadcrumbs {
+    background: #1e4356;
+    color: #FFF;
+    text-transform: capitalize;
+    padding:1.5em 0em;
+    font-family: "Abel", sans-serif;
+    margin-top: 8.3em;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+
+}
+
+ .pHead{
+    font-family: 'Francois One', sans-serif !important;
+}
+.pHeadS {
+    font-family: 'Francois One', sans-serif !important;
+}
+.pDescr{
+    font-family: "Abel", sans-serif !important;
+    font-size: 20px !important;
+}
+.card {
+    font-family: 'Nunito', sans-serif;
+
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+
+
+.sechead {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    
+}
+.aboutH3 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color:#00adff;
+    margin:15px 0px;
+}

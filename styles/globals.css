@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Armata&family=Francois+One&family=Oswald:wght@500;600;700&family=Pontano+Sans&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, Abel , Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
 a {
   color: inherit;
   text-decoration: none;
@@ -91,7 +93,26 @@ div.nav-item div.show {
   color: #fff;
   text-align: center;
 }
+.dropdown-item {
+  padding: 7px 17px !important;
+}
 
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: .255em;
+  /* margin-top: 9px; */
+  vertical-align: .255em;
+  /* line-height: 27px; */
+  content: "";
+  /* position: absolute; */
+  /* top: 20px; */
+  /* padding: 10px; */
+  border-top: 0.40em solid;
+  border-right: .40em solid transparent;
+  border-bottom: 0;
+  font-size: 12px;
+  border-left: .40em solid transparent;
+}
 .carousel-item:after {
   content:"";
   display:block;
@@ -111,6 +132,11 @@ div.nav-item div.show {
 
 .animate__animated {
   --animate-duration: 2s;
+}
+
+
+ol li.breadcrumb-item a{
+  text-decoration: none;
 }
 
 .counts .count-box {
@@ -133,7 +159,7 @@ div.nav-item div.show {
   padding: 0;
   margin: 0;
   font-family: "Nunito", sans-serif;
-  font-size: 16px !important;
+  font-size: 17px !important;
 }
 
 .counts .count-box svg {
@@ -144,7 +170,7 @@ div.nav-item div.show {
 }
 
 section.about p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Francois One", sans-serif;
 }
 
 .section-title p {
@@ -180,7 +206,7 @@ section#clients .section-title h2,section#contacts .section-title h2,section#pro
   margin: 24px 0px;
   padding: 30px 0px;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Francois One", sans-serif;
   text-transform: uppercase;
   text-align: center;
   color: #464646;
@@ -196,6 +222,9 @@ section#clients .section-title p, section.contacts .section-title p, section.pro
   font-weight: 600;
 }
 
+section#products {
+  background: #f8f9fa;
+}
 
 .align-items-stretch {
   align-items: stretch!important;
@@ -215,29 +244,49 @@ div.member-img img {
 
 }
 
+div.swiper-button-next, div.swiper-button-prev{
+  color: #ffffff;
+    background: #00adffcf;
+    padding: 23px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+div.swiper-button-prev::after, div.swiper-button-next::after{
+ font-size: 18px;
+}
+div.swiper-button-prev{
+  left:20px !important;
+  top:43%;
+}
+div.swiper-button-next{
+  right:20px !important;
+  top:43%;
+}
+.fixed-top {
+  top: 50px !important;
+}
 .products .member .member-info h4 {
    
 
-display: block;
-display: -webkit-box;
-max-width: 100%;
-height: 75px;
-margin: 0 auto;
-font-size:20px;
-line-height: 24px;
-line-height: 1;
--webkit-line-clamp: 3;
--webkit-box-orient: vertical;
-overflow: hidden;
-text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  font-size: 22px;
+  /* color: #098ccb; */
+  height: 75px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+/* font-family: "Abel", sans-serif;
+font-weight: bold; */
  }
 
 .products .member {
   margin-bottom: 20px;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 14px;
   background: #fff;
-  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 7%);
 }
 
 .section-title h2 {
@@ -424,6 +473,11 @@ div.card {
 .swiper-slide {
   text-align: center !important;
 }
+/* 
+
+@media only screen and (max-width: ){
+  
+} */
 
 @media only screen and (max-width: 600px) {
 
@@ -432,6 +486,7 @@ div.card {
     margin: 0 auto;
     font-size: 14px;
     }
+  
 
 }
 
@@ -447,6 +502,19 @@ div.card {
     background-clip: padding-box;
     border: 1px solid #8c8484 !important;
     margin: 10px 0px;
+}
+
+.scrolltop {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00adff;
+  padding: 9px 11px;
+  color: #FFF;
+  cursor: pointer;
 }
 
 .form-control:focus {
