@@ -56,7 +56,7 @@ export const SliderWeb =  () => {
       }}
     >
 {siwpeList.map((value:any, index:number)=>
-  <SwiperSlide><img key={index} src={value} width="200" height="100"/></SwiperSlide>
+  <SwiperSlide key={index}><img  src={value} width="200" height="100"/></SwiperSlide>
 )}
       
     </Swiper>
