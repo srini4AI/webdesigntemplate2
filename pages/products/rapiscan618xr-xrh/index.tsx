@@ -45,7 +45,7 @@ const rapiscan618xr = () =>{
             <p  className={styles.productdescr}>
             The 618XR is designed for rapid relocation and can be wheeled through narrow doorways, making it an excellent system for schools, hotels, convention centers and event-based security environments.
             </p>
-            <p  className={styles.productdescr}>Like all systems in the 600 series family of X-ray scanning solutions, the 618XR is built on a standardized platform that makes it easy to install and maintain, and comes with features such as dual-energy detection, a streamlined, ergonomic design, and Rapiscan® Systems' feature-rich OS600 system software.</p>
+            <p  className={styles.productdescr}>Like all systems in the 600 series family of X-ray scanning solutions, the 618XR is built on a standardized platform that makes it easy to install and maintain, and comes with features such as dual-energy detection, a streamlined, ergonomic design, and Rapiscan® Systems feature-rich OS600 system software.</p>
             
             
             <div className="row">

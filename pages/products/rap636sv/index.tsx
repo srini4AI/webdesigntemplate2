@@ -40,7 +40,7 @@ const rap636sv = () =>{
             With an innovative design the ability to rapidly deploy baggage and parcel inspection at any location with one complete unit is possible. The Rapiscan MobileCheck 636SV can be deployed and operated in three different modes, from either side of the van or in a pass through mode.
             </p>
             <p  className={styles.productdescr}>
-            Like all systems in the 600 series family of X-ray scanning solutions, the Rapiscan MobileCheck 636SV X-ray screening system is built on a standardized platform that makes it easy to operate and maintain, and comes standard with features such as dual-energy detection, a streamlined, ergonomic design, and Rapiscan's feature-rich OS600 system software.
+            Like all systems in the 600 series family of X-ray scanning solutions, the Rapiscan MobileCheck 636SV X-ray screening system is built on a standardized platform that makes it easy to operate and maintain, and comes standard with features such as dual-energy detection, a streamlined, ergonomic design, and Rapiscan&apos;s feature-rich OS600 system software.
             </p> 
             <div className="row">
               <div className="col-lg-12">
