@@ -1,14 +1,25 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import {Navbar, Container,Nav,NavDropdown} from 'react-bootstrap';
 import { DropdownSubmenu, NavDropdownMenu } from "react-bootstrap-submenu";
+import { faCheckDouble, faPhone, faPhoneAlt} from '@fortawesome/free-solid-svg-icons';
 import styles from './navbar.module.css';
 export const NavBarHeader =() =>{
     return(
-    
-    
+    <>
+    <div style={{"backgroundColor":"#006aae", height:"50px", width:"100%","position": "fixed",zIndex:9999, "top": 0}}>
+    <div className="container">
+      <div className="row">
+        <div className="col-12">
+          <div className="col-12 col-lg-3 col-md-3 float-end"> <p  className="float-end" style={{"color":"white", "lineHeight":"52px", "fontSize":"18px", "fontFamily":"Abel, sans-serif"}}><FontAwesomeIcon icon={faPhoneAlt}  size="lg" /> Toll Free: 9999999999999</p></div>
+        </div>
+      </div>
+    </div>
+    </div>
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className={styles.navbarStyle}>
+    
     <Container>
-    <Navbar.Brand href="#home"><div className={styles.logoNav}>
+    <Navbar.Brand href="/"><div className={styles.logoNav}>
       <img src="/images/rapiscan_ltd_1ss.png" className={styles.logoImage}/><h4 className={styles.logoText}> ECIL - Rapiscan Ltd</h4></div></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
@@ -61,9 +72,9 @@ export const NavBarHeader =() =>{
         <NavDropdown.Item href="/service" id={styles.anchorAnnual}>Service Network & Our Strengths</NavDropdown.Item>
         <NavDropdown.Item href="/maintenance" id={styles.anchorAnnual}>Maintenance</NavDropdown.Item>
         <NavDropdown.Item href="/spares" id={styles.anchorAnnual}>Spares</NavDropdown.Item>
-        <NavDropdown.Item href="/management" id={styles.anchorAnnual}>Maintenance Management System</NavDropdown.Item>
+        <NavDropdown.Item href="/maintenancemanage" id={styles.anchorAnnual}>Maintenance Management System</NavDropdown.Item>
         <NavDropdown.Item href="/training" id={styles.anchorAnnual}>Training</NavDropdown.Item>
-        <NavDropdown.Item href="/audits" id={styles.anchorAnnual}>Safety Audits</NavDropdown.Item>
+        <NavDropdown.Item href="/safetyaudits" id={styles.anchorAnnual}>Safety Audits</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Career" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/opening" id={styles.anchorAnnual}>Current Opening</NavDropdown.Item>
@@ -81,6 +92,6 @@ export const NavBarHeader =() =>{
     </Navbar.Collapse>
     </Container>
   </Navbar>
-  
+  </>
   )
 }

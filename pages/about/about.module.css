@@ -10,7 +10,7 @@
     text-transform: capitalize;
     padding:1.5em 0em;
     font-family: "Abel", sans-serif;
-    margin-top:5.5em;
+    margin-top: 8.3em;
 }
 
 .sechead {
@@ -22,13 +22,6 @@
     text-transform: uppercase;
     transition: all 0.4s ease 0s;
     font-family: "Abel", sans-serif;
-}
-.aboutH3 {
-    font-weight: 400;
-    font-size: 24px;
-    color:#00adff;
-    margin:15px 0px;
-    font-family: 'Francois One', sans-serif;
 }
 .ulList {
     list-style: outside none none;
@@ -51,4 +44,12 @@
     text-align: justify;
         font-family: 'Abel', sans-serif !important;
     font-size:20px;
+}
+
+.aboutH3 {
+    font-weight: 400;
+    font-size: 24px;
+    color:#00adff;
+    margin:15px 0px;
+    font-family: 'Francois One', sans-serif;
 }

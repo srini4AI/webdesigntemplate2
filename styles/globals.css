@@ -222,6 +222,9 @@ section#clients .section-title p, section.contacts .section-title p, section.pro
   font-weight: 600;
 }
 
+section#products {
+  background: #f8f9fa;
+}
 
 .align-items-stretch {
   align-items: stretch!important;
@@ -241,21 +244,39 @@ div.member-img img {
 
 }
 
+div.swiper-button-next, div.swiper-button-prev{
+  color: #ffffff;
+    background: #00adffcf;
+    padding: 23px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+div.swiper-button-prev::after, div.swiper-button-next::after{
+ font-size: 18px;
+}
+div.swiper-button-prev{
+  left:20px !important;
+  top:43%;
+}
+div.swiper-button-next{
+  right:20px !important;
+  top:43%;
+}
+.fixed-top {
+  top: 50px !important;
+}
 .products .member .member-info h4 {
    
 
-display: block;
-display: -webkit-box;
-max-width: 100%;
-height: 75px;
-margin: 0 auto;
-font-size:17px;
-line-height: 24px;
-line-height: 1;
--webkit-line-clamp: 3;
--webkit-box-orient: vertical;
-overflow: hidden;
-text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  font-size: 22px;
+  /* color: #098ccb; */
+  height: 75px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
 /* font-family: "Abel", sans-serif;
 font-weight: bold; */
  }
@@ -263,9 +284,9 @@ font-weight: bold; */
 .products .member {
   margin-bottom: 20px;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 14px;
   background: #fff;
-  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 7%);
 }
 
 .section-title h2 {

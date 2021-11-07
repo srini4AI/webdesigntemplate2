@@ -17,7 +17,7 @@ const Maintenance = () =>{
                  <div className="d-flex justify-content-between align-items-center">
                      <h2 className={styles.headingH2}>Maintenance</h2>
                      <Breadcrumb>
-                         <Breadcrumb.Item href="#">Company</Breadcrumb.Item>
+                         <Breadcrumb.Item href="#">Service Support</Breadcrumb.Item>
                          <Breadcrumb.Item active>Maintenance</Breadcrumb.Item>
                      </Breadcrumb>
                  </div>
@@ -150,8 +150,13 @@ const Maintenance = () =>{
           </div>
           <div className="col-lg-12">
           <h3 className={`${styles.aboutH3} my-4`}>Tailored made Contracts:</h3>
-          <p className={styles.aboutp}>ECIL Rapiscan Ltd offers after-sales service with three standard levels of contracts according to the needs and budget. The service contracts are available for purchase during the purchase of the machine or when the equipment's warranty is expiring. </p>
-          <p className={styles.aboutp}>We can also customize any Contract to meet a customer’s specific requirements.  </p>
+          <ul className={styles.tailMade}>
+              <li><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span> Technical Support - 24 Hours / 7 Days  / 365 Days a Year</span></li>
+                <li><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> Service Engineer attending Complaint – As agreed upon</span></li>
+                <li><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> Response Time – As agreed upon.</span></li>
+                <li className="na"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /> <span> Resolution Time – As agreed upon.</span></li>
+                <li className="na"><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /> <span> Preventive Maintenance.</span></li>
+              </ul>
         </div>
         </div>
 

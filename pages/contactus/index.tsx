@@ -78,7 +78,7 @@ const ContactUs = () =>{
               <p>Regency's AshianaAppt</p>
               <p>G3, Ground Floor</p>
               <p>No.15/7, Asargaana Street, Alandur</p>
-              <p >Chennai - 600 016Chennai - 600 016</p>
+              <p >Chennai - 600 016</p>
               <p>TEL: 044 - 2233 5870</p>
             </div>
             <div className={`${styles.resumeItem} my-4`}>
