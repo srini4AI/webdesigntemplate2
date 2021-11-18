@@ -11,7 +11,7 @@ export const NavBarHeader =() =>{
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <div className="col-12 col-lg-3 col-md-3 float-end"> <p  className="float-end" style={{"color":"white", "lineHeight":"36px", "fontSize":"16px", "fontFamily":"Abel, sans-serif"}}><FontAwesomeIcon icon={faPhoneAlt}  size="lg" /> Toll Free: 9999999999999</p></div>
+          <div className="col-12 col-lg-3 col-md-3 float-end"> <p  className="float-end" style={{"color":"white", "lineHeight":"36px", "fontSize":"16px", "fontFamily":"Abel, sans-serif"}}><FontAwesomeIcon icon={faPhoneAlt}  size="lg" /> Toll Free: 1800 108 7499</p></div>
         </div>
       </div>
     </div>
@@ -34,7 +34,8 @@ export const NavBarHeader =() =>{
         <NavDropdown  align="end" drop="end" title="X-ray Baggage Scanners" id={styles.anchorAnnual}>
           <NavDropdown align="end" drop="end" title="Single View Scanners" id={styles.anchorAnnual}>
           <NavDropdown.Item href="/products/rapiscan515">RAP 515</NavDropdown.Item>
-          <NavDropdown.Item href="/products/rapiscan618xr-xrh">RAP 618XR/XRH</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan618xr">RAP 618XR</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rapiscan618xrh">RAP 618XRH</NavDropdown.Item>
           <NavDropdown.Item href="/products/rapiscan620xr">RAP 620XR</NavDropdown.Item>
           <NavDropdown.Item href="/products/rapiscan620xrh">RAP 620XRH</NavDropdown.Item>
           <NavDropdown.Item href="/products/rapiscan620xrve">RAP 620XRve</NavDropdown.Item>
@@ -46,7 +47,20 @@ export const NavBarHeader =() =>{
           <NavDropdown.Item href="/products/rapiscan632xr">RAP 632XR</NavDropdown.Item>
           <NavDropdown.Item href="/products/rapiscan638xr">RAP 638XR</NavDropdown.Item>
          </NavDropdown>
-         </NavDropdown>
+         <NavDropdown align="end" drop="end" title="Dual View Scanners" id={styles.anchorAnnual}>
+          <NavDropdown.Item href="/products/rap620dv">RAP 620DV</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rap627dv">RAP 627DV</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rap628dv">RAP 628DV</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rap632dv">RAP 632DV</NavDropdown.Item>
+          <NavDropdown.Item href="/products/rap638dv">RAP 638DV</NavDropdown.Item>
+          <NavDropdown.Item href="/products/920dx">920DX</NavDropdown.Item>
+          <NavDropdown.Item href="/products/927dx">927DX</NavDropdown.Item>
+          <NavDropdown.Item href="/products/928dx">928DX</NavDropdown.Item>
+          </NavDropdown>
+          <NavDropdown align="end" drop="end" title="CT Scanners" id={styles.anchorAnnual}>
+          <NavDropdown.Item href="/products/920ct">920CT</NavDropdown.Item>
+          </NavDropdown> 
+          </NavDropdown>
          <NavDropdown  align="end" drop="end" title="Explosive Trace Detectors" id={styles.anchorAnnual}>
          <NavDropdown.Item href="/products/mobiletrace">Mobile Trace</NavDropdown.Item>
           <NavDropdown.Item href="/products/itemiser4dx">Itemizer 4DX</NavDropdown.Item>

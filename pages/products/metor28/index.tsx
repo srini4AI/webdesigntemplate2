@@ -30,11 +30,11 @@ const metor28 = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-6">
+          <div className="col-lg-4">
            
-            <img src="/images/products/Metor-6M.jpeg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/metor-28.jpg" className="img-fluid pt-5" alt=""/></div>
           
-          <div className="col-lg-6 pt-4 pt-lg-0 content">
+          <div className="col-lg-8 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Hand-held metal detectors are an integral part of the physical security screening process. With the Metor 28, we have designed a unit that benefits security personnel as well as the person being scanned. Our unique angled design allows you to thoroughly scan an individual, while keeping your hand away from their body.</p>
             <div className="row">
               <div className="col-lg-12">

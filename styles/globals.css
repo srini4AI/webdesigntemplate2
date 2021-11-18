@@ -144,12 +144,13 @@ ol li.breadcrumb-item a{
   align-items: center;
   padding: 13px;
   width: 100%;
+  height:100px;
   background: #fff;
   box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
 }
 
 .counts .count-box span {
-  font-size: 36px;
+  font-size: 20px;
   display: block;
   font-weight: 600;
   color: #0b198f;
@@ -159,7 +160,7 @@ ol li.breadcrumb-item a{
   padding: 0;
   margin: 0;
   font-family: "Nunito", sans-serif;
-  font-size: 17px !important;
+  font-size: 13px !important;
 }
 
 .counts .count-box svg {
@@ -215,6 +216,8 @@ section#clients .section-title h2,section#contacts .section-title h2,section#pro
 section#clients {
   background: #f2fdff;
 }
+
+
 section#clients .section-title p, section.contacts .section-title p, section.products .section-title p  {
   font-size: 18px;
   font-family: "Nunito", sans-serif;
@@ -322,6 +325,31 @@ section#clients  h2::after, section.contacts  h2::after, section.products h2::af
   bottom: 0;
   left: calc(50% - 25px);
 }
+
+#contacts h2 {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 13px 0px;
+  padding: 17px 0px;
+  position: relative;
+  font-family: "Francois One", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+#contacts h2::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #00adff;
+
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
 
 
 section.contact .php-email-form {
@@ -497,10 +525,10 @@ div.card {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #ffffff !important;
-    background-color: #182227 !important;
+
+
     background-clip: padding-box;
-    border: 1px solid #8c8484 !important;
+    border: 1px solid #f8f9fa !important;
     margin: 10px 0px;
 }
 
@@ -518,8 +546,9 @@ div.card {
 }
 
 .form-control:focus {
-  color: #dedede !important;
-  background-color: #4a4a4a !important;
+ 
+ 
+  background-color: #f8f9fa !important;
   border-color: #676767 !important;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);

@@ -35,7 +35,7 @@ import { ScrollToTop } from '../../components/scrolltotop';
         <div className="container"  data-aos="zoom-in">
   <div className={styles.card}>
     <div className="row ">
-      <div className="col-7">
+      <div className="col-10">
         <div className={styles["card-block"]}>
 
           <p className={`${styles.pHead} text-start fs-4 text-info`}>Mr. Deepak Chopra</p>
@@ -44,8 +44,8 @@ import { ScrollToTop } from '../../components/scrolltotop';
         </div>
       </div>
 
-      <div className="col-5">
-        <img className="img-thumbnail rounded float-end mx-4 mt-4" src="https://picsum.photos/150?image=380" alt=""/>
+      <div className="col-2">
+        <img className="img-thumbnail rounded float-end mx-4 mt-4" style={{"height":"200px"}} src="/images/management/chopra_photograph.jpg" alt=""/>
       </div>
     </div>
     <p   className={`text-start  ${styles.pDescr}   mx-3 mt-3`}>Mr. Chopra is also the founder of OSI Systems, Inc. USA and has served as President, CEO and as a Director since the Company&apos;s inception in May 1987. Mr. Chopra holds a Bachelor of Science in Electronics from Punjab Engineering College and a Master of Science degree in Semiconductor Electronics from the University of Massachusetts, Amherst.</p>
@@ -55,7 +55,7 @@ import { ScrollToTop } from '../../components/scrolltotop';
     <div className="container"  data-aos="zoom-in">
   <div className={styles.card}>
     <div className="row ">
-      <div className="col-7">
+      <div className="col-10">
         <div className={styles["card-block"]}>
 
           <p className={`${styles.pHead} text-start fs-4 text-info`}>Mr. Ajay Mehra</p>
@@ -64,7 +64,7 @@ import { ScrollToTop } from '../../components/scrolltotop';
         </div>
       </div>
 
-      <div className="col-5">
+      <div className="col-2">
         <img className="img-thumbnail rounded float-end mx-4 mt-4" src="https://picsum.photos/150?image=380" alt=""/>
       </div>
     </div>
@@ -125,7 +125,7 @@ import { ScrollToTop } from '../../components/scrolltotop';
       </div>
 
       <div className="col-lg-2">
-        <img className="img-thumbnail rounded float-end mx-4 mt-4" src="https://picsum.photos/150?image=380" alt=""/>
+        <img className="img-thumbnail rounded float-end mx-4 mt-4" src="/images/management/mohinder_chopr_photo.jpg" alt=""/>
       </div>
     </div>
     <p  className={`text-start mx-3 mt-2 ${styles.pDescr}`}>Mr. Chopra served as alternate director of the company since many years and presently he is the Director of our company i.e., from 28.12.2015 and also holds the position of directorship In OSI Systems Private Limited since 01.11.2005</p>
