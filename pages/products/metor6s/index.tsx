@@ -32,7 +32,7 @@ const metor6s = () =>{
         <div className="row my-4">
           <div className="col-lg-4">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/Metor_6S.jpg" className="img-fluid pt-5" alt=""/></div>
           
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>High sensitivity Walk-Through Metal Detector (WTMD) for prisons and facility asset protection.</p>
@@ -107,7 +107,7 @@ const metor6s = () =>{
                     </div>
                     <p className={`${styles.circleIconp} text-center mt-3`}>AUTOMATIC<br/>SYSTEM READY<br/>VIOLATION<br/>MONITORING</p>
                     </div>
-                    <div className="col-2">
+                    <div className="offset-md-4 col-2">
                     <div className={`${styles.circleIcon} ${styles.circleIconp}`}>
                 
                         <FontAwesomeIcon icon={faCheck} className="text-center"   color="white" size="2x"  />

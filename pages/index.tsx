@@ -10,7 +10,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import "animate.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBinoculars , faSearch, faBomb, faCar,  faCheckDouble} from '@fortawesome/free-solid-svg-icons';
+import { faBinoculars , faSearch, faBomb, faCar,  faCheckDouble, faGlobe, faDoorClosed} from '@fortawesome/free-solid-svg-icons';
 import {Button} from 'react-bootstrap';
 import CountUp from 'react-countup';
 import React from 'react';
@@ -45,12 +45,14 @@ const Home: NextPage = () => {
         <div className="row content">
           <div className="col-lg-6">
             <p className={styles.paraP}>
-             Rapiscan Systems, UK & USA (www.rapiscansystems.com) is a subsidiary of OSI Systems Inc., USA. Rapiscan Systems is a leader in manufacturing the latest state-of-the-art XBIS (X-ray and Baggage Screening Solutions) and other related products manufactured to International Standards and approved by the Aviation Authorities in the USA, UK, and EUROPE. Rapiscan has supplied thousands of XBIS to reputed Organizations such as Heathrow Airport, 
+            ECIL Rapiscan Ltd, incorporated in the year 1995(and is a Joint Venture Company formed jointly by OSI Systems, Inc., USA and Electronics Corporation of India Limited, a wholly-owned Government of India Enterprise). ECIL Rapiscan Limited, since its inception in the year 1995, is selling and providing after-sale- services for the entire manufacturing of the X-ray Baggage Inspection Systems (XBIS). We offer a wide array of products and solutions which are state-of-the-art, reliable and high quality ranging from Biological and Chemical Agents Detection to Baggage and Parcel Inspection. Cargo Vehicle Inspection, Hold Baggage Screening, People Screening, 
             </p>
            
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0" >
-          <p className={styles.paraP}> Manchester Airport, Foreign Post Office UK,Her Majesty&apos;s Prisons, Buckingham Palace, and many other USA, Europe, Middle East, South East Asia etc.</p>
+          <p className={styles.paraP}> Radiation Detection, Metal Detection, Trace Detection to System Integration such as Surveillance Solutions, and Bomb Disposal Solutions are a few other areas of our expertise.
+
+</p>
           <h3 className={styles.aboutH3}>Our Prestigious Clients include:</h3>
           
             <div className="row">
@@ -83,11 +85,11 @@ const Home: NextPage = () => {
 
         <div className="row gy-4">
 
-          <div className="col-lg-3 col-md-6 col-xs-6 col-sm-6"   data-aos="flip-right"
+          <div className="col-lg-2 col-md-6 col-xs-6 col-sm-6"   data-aos="flip-right"
   data-aos-easing="ease-out-cubic"
   data-aos-duration="2000">
             <div className="count-box">
-              <FontAwesomeIcon icon={faBinoculars}  size="2x" />
+              <FontAwesomeIcon icon={faBinoculars}  size="lg" />
               <div>
                 <span>4966+</span>
                 <p>X-RAY BAGGAGE <br/>SCANNERS</p>
@@ -100,40 +102,40 @@ const Home: NextPage = () => {
   data-aos-easing="ease-out-cubic"
   data-aos-duration="2000">
             <div className="count-box">
-              <FontAwesomeIcon icon={faSearch}  size="2x"  style={{"color":"#ee6c20"}}  />
+              <FontAwesomeIcon icon={faDoorClosed}  size="lg"  style={{"color":"#ee6c20"}}  />
               <div>
-                <span>7652+</span>
+                <span>4966+</span>
                 <p>DOOR FRAME METAL DETECTORS</p>
               </div>
             </div>
           </div>
 
-          {/* <div className="col-lg-2 col-md-6">
+          <div className="col-lg-3 col-md-6">
             <div className="count-box">
-            <FontAwesomeIcon icon={faGlobe}  size="2x" />
+            <FontAwesomeIcon icon={faSearch}  size="lg" />
               <div>
                 <span>521</span>
-                <p>COUNTRIES SUPPLIED</p>
+                <p>HAND HELD METAL DETECTORS</p>
               </div>
             </div>
-          </div> */}
+          </div>
 
-          <div className="col-lg-3 col-md-6  col-xs-6 col-sm-6"  data-aos="flip-left"
+          <div className="col-lg-2 col-md-6  col-xs-6 col-sm-6"  data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
             <div className="count-box">
-            <FontAwesomeIcon icon={faBomb}  size="2x" style={{"color":"#15be56"}}/>
+            <FontAwesomeIcon icon={faBomb}  size="lg" style={{"color":"#15be56"}}/>
               <div>
               <span>3711+</span>
                 <p>EXPLOSIVE<br/> DETECTORS</p>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6  col-xs-6 col-sm-6"  data-aos="flip-left"
+          <div className="col-lg-2 col-md-6  col-xs-6 col-sm-6"  data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
             <div className="count-box">
-            <FontAwesomeIcon icon={faCar}  size="2x" style={{"color":"#bb0852"}}/>
+            <FontAwesomeIcon icon={faCar}  size="lg" style={{"color":"#bb0852"}}/>
               <div>
               <span>1720+</span>
                 <p>VEHICLE MOUNT SCANNERS</p>

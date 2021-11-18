@@ -13,12 +13,12 @@ const rap622xr = () =>{
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                    <h2 className={styles.headingH2}>622XR</h2>
+                    <h2 className={styles.headingH2}> RAP 622XR</h2>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>baggage and parcel inspection</Breadcrumb.Item>
-                        <Breadcrumb.Item active>622XR</Breadcrumb.Item>
+                        <Breadcrumb.Item active> RAP 622XR</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
 
@@ -32,7 +32,7 @@ const rap622xr = () =>{
         <div className="row my-4">
           <div className="col-lg-4">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/Rapiscan-622XR.jpeg" className="img-fluid pt-5" alt=""/></div>
           
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Feature-rich X-ray baggage inspection system for screening large carry-on baggage and parcels at the checkpoint.</p>

@@ -8,22 +8,24 @@
     }
 
 #footer {
-    background: #182227;
+  background: #006aae;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
     font-family: "Nunito", sans-serif;
   }
   #footer .footerTop {
-    padding: 44px 0 0px 0;
+    padding: 10px 0 0px 0;
   }
+
   #footer .footerTop .footerInfo {
     margin-bottom: 15px;
-    background: #0a151b;
-    color: #fff;
+    background: #c5e0f1;
+    color: #006aae;
     border-top: 4px solid #00adff;
     text-align: center;
     padding: 30px 20px;
+    font-weight: 600;
   }
   #footer .footerTop .footerInfo h3 {
     font-size: 36px;
