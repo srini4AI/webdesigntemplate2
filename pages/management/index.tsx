@@ -45,7 +45,7 @@ import { ScrollToTop } from '../../components/scrolltotop';
       </div>
 
       <div className="col-2">
-        <img className="img-thumbnail rounded float-end mx-4 mt-4" style={{"height":"200px"}} src="/images/management/chopra_photograph.jpg" alt=""/>
+        <img className="img-thumbnail rounded float-end mx-4 mt-4" style={{"height":"200px"}} src="/images/management/chopra_photograph.png" alt=""/>
       </div>
     </div>
     <p   className={`text-start  ${styles.pDescr}   mx-3 mt-3`}>Mr. Chopra is also the founder of OSI Systems, Inc. USA and has served as President, CEO and as a Director since the Company&apos;s inception in May 1987. Mr. Chopra holds a Bachelor of Science in Electronics from Punjab Engineering College and a Master of Science degree in Semiconductor Electronics from the University of Massachusetts, Amherst.</p>
@@ -85,33 +85,14 @@ import { ScrollToTop } from '../../components/scrolltotop';
       </div>
 
       <div className="col-2">
-        <img className="img-thumbnail rounded float-end mx-4 mt-4" src="/images/management/Rear_Admiral_Sanjay_Chaubey.jpg" alt=""/>
+        <img className="img-thumbnail rounded float-end mx-4 mt-4" src="/images/management/Rear_Admiral_Sanjay_Chaubey.png" alt=""/>
       </div>
     </div>
     <p  className={`text-start  ${styles.pDescr} mx-3 mt-3`}>Mr. Chaubey was holding the position of Director (Technical) prior to this appointment and he is a graduate in Electrical Engineering from the National Institute of Technology, Rourkela and a post graduate in Communication Engineering from Indian Institute of Science, Bengaluru.</p>
   </div>
   
     </div>
-    <div className="container"  data-aos="zoom-in">
-  <div className={styles.card}>
-    <div className="row ">
-      <div className="col-lg-10">
-        <div className={styles["card-block"]}>
 
-          <p className={`${styles.pHead} text-start fs-4 text-info`}>Mr. Anirudh Prasad Singh</p>
-          <p  className={`text-start  ${styles.pHeadS}`}>Director (Finance), Electronics Corporation of India Limited</p>
-          <p className={`text-start  ${styles.pDescr}`}>Mr. Anirudh Prasad Singh is nominated on Board by Electronics Corporation of India Limited, (ECIL), a Public Sector Undertaking under the Department of Atomic Energy.</p>
-        </div>
-      </div>
-
-      <div className="col-lg-2">
-        <img className="img-thumbnail rounded float-end mx-4 mt-4" src="https://picsum.photos/150?image=380" alt=""/>
-      </div>
-    </div>
-    <p  className={`text-start mx-3 mt-2 ${styles.pDescr}`}>Mr. Singh has done his MBA in Finance & HR and MA in Sociology. He is from Indian P&T Accounts & Finance Services Group-A. Prior to joining ECIL, he was serving as General Manager in Mahanagar Telephone Nigam Limited (MTNL), Mumbai, aNavaratna PSU under Ministry of Communications.</p>
-  </div>
-  
-    </div>
     <div className="container"  data-aos="zoom-in">
   <div className={styles.card}>
     <div className="row ">
@@ -125,7 +106,7 @@ import { ScrollToTop } from '../../components/scrolltotop';
       </div>
 
       <div className="col-lg-2">
-        <img className="img-thumbnail rounded float-end mx-4 mt-4" src="/images/management/mohinder_chopr_photo.jpg" alt=""/>
+        <img className="img-thumbnail rounded float-end mx-4 mt-4" src="/images/management/mohinder_chopr_photo.png" alt=""/>
       </div>
     </div>
     <p  className={`text-start mx-3 mt-2 ${styles.pDescr}`}>Mr. Chopra served as alternate director of the company since many years and presently he is the Director of our company i.e., from 28.12.2015 and also holds the position of directorship In OSI Systems Private Limited since 01.11.2005</p>
