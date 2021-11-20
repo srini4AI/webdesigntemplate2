@@ -40,14 +40,14 @@ const Maintenance = () =>{
             <div className={styles.resumeItem}>
               <h4>Customer Service:	</h4>
               <ul>
-                <li>Dedicated service staff of 225+ with 27 service branches PAN India.</li>
-                <li>On-site service support </li>
-                <li>Guaranteed Response/resolution time</li>
-                <li>Preventive Maintenance</li>
-                <li>Corrective Maintenance / Break-Down Calls</li>
-                <li>Operational Training</li>
-                <li>Capable of meeting  customer-specified SLA’s</li>
+                <li>Centralized Customer Service with dedicated toll- free no.</li>
+                <li>Provides support 24 Hours / 7 Days / 365 Days a Year </li>
+                <li>Online Technical Support</li>
+                <li>Instant complaint registration/tracking</li>
+                <li>Escalation handling</li>
+                <li>Ensuring Customer Satisfaction</li>
               </ul>
+              <br/>
             </div>
             
           </div>
@@ -139,6 +139,9 @@ const Maintenance = () =>{
               <h3>SILVER</h3>
               <h4><span>(Available at all ERL Service Branch locations)</span></h4>
               <ul>
+              <li><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span> Technical Support - 24 Hours / 7 Days  / 365 Days a Year</span></li>
+              <li><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span>	Service Engineer attending Complaint – Monday to Friday (9.00AM to 5.00PM)</span></li>
+
               <li><FontAwesomeIcon icon={faCheckDouble} className="text-primary"  /> <span> Response Time – 24 Hrs. (Local) & 48 Hrs. (Out-station) from the time the Complaint is lodged</span></li>
                 <li><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> Resolution Time (Spares not Required) – 36 Hrs. (Local) & 72 Hrs. (Out-station) from the time the Complaint is lodged</span></li>
                 <li><FontAwesomeIcon icon={faCheckDouble}  className="text-primary" /><span> Resolution Time depends on receipt of the spare order.</span></li>

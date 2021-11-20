@@ -8,7 +8,8 @@
     }
 
 #footer {
-  background: #006aae;
+  margin-bottom: 0;
+  background: #242424;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
@@ -20,12 +21,10 @@
 
   #footer .footerTop .footerInfo {
     margin-bottom: 15px;
-    background: #c5e0f1;
-    color: #006aae;
-    border-top: 4px solid #00adff;
-    text-align: center;
-    padding: 30px 20px;
-    font-weight: 600;
+
+
+
+
   }
   #footer .footerTop .footerInfo h3 {
     font-size: 36px;
@@ -36,7 +35,7 @@
   }
   #footer .footerTop .footerInfo p {
     font-size: 18px;
-    margin-bottom: 0;
+    padding-left: 40px;
     font-family: "Abel", sans-serif;
   }
   #footer .footerTop .socialLinks a {
@@ -148,6 +147,6 @@
   }
   @media (max-width: 575px) {
     #footer .footerTop .footerInfo {
-      margin: -20px 0 30px 0;
+      margin: 0px 0 30px 0;
     }
   }
