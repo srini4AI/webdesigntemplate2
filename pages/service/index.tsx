@@ -61,11 +61,12 @@ import { ScrollToTop } from '../../components/scrolltotop';
           <div className="container">
           <h3 className={styles.aboutH3}>Service Network</h3>
               <div className="card">
-              <MyMap isMarkerShown={marker}
+                <img src="/images/location_map.jpg"/>
+              {/* <MyMap isMarkerShown={marker}
                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3HHUyMrJnkhilzj5w2_MYZcvMi1_k3ak&v=3.exp&libraries=geometry,drawing,places"
                loadingElement={<div style={{ height: `100%` }} />}
                containerElement={<div style={{ height: `900px` }} />}
-               mapElement={<div style={{ height: `100%` }} />}></MyMap>
+               mapElement={<div style={{ height: `100%` }} />}></MyMap> */}
                </div>
                </div>
           </section>

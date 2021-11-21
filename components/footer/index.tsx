@@ -42,11 +42,11 @@ return (
                                         <div className={`${'col-lg-4 col-md-6 d-none d-lg-block'} ${styles.footerLinks}`}>
                                             <h4>Our Services</h4>
                                             <ul>
-                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <a href="#">X-Ray Baggage Scanners</a></li>
-                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <a href="#">Explosive Trace Detectors</a></li>
-                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <a href="#">Door Frame Metal Detectors</a></li>
-                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <a href="#">Hand Held Metal Detectors</a></li>
-                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <a href="#">Vehicle Mounted X-Ray Baggage Scanners</a></li>
+                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <Link href= "/category/xray-baggage" ><a className={styles.productA}>X-Ray Baggage Scanners</a></Link></li>
+                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <Link href= "/category/exp-trace-detectors" ><a className={styles.productA}>Explosive Trace Detectors</a></Link></li>
+                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <Link href= "/category/door-frame-metal-detectors" ><a className={styles.productA}>Door Frame Metal Detectors</a></Link></li>
+                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <Link href= "/category/hand-held-metal-detectors" ><a className={styles.productA}>Hand Held Metal Detectors</a></Link></li>
+                                                <li>     <FontAwesomeIcon icon={faChevronRight}  size="2x" /> <Link href= "/category/vehicle-mounted-x-Ray-baggage-scanners" ><a className={styles.productA}>Vehicle Mounted X-Ray Baggage Scanners</a></Link></li>
                                             </ul>
                                         </div>
 

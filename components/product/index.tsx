@@ -1,16 +1,18 @@
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
+import Link from 'next/link'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import React, { useEffect } from 'react';
+import styles from './product.module.css';
 export const ProductPortfolio = () =>{
   useEffect(()=>{
     SwiperCore.use([Autoplay])
-  },[])
+  },[Autoplay])
     return( <> <div className="row">
        <Swiper
        autoplay={{ delay: 3000 }}
@@ -42,7 +44,7 @@ export const ProductPortfolio = () =>{
 
     >
     <SwiperSlide>
-      <div className="member">
+    <Link href= "/category/xray-baggage" ><a className={styles.productA}><div className="member">
         <div className="member-img">
           <img  src="/images/products/Rapiscan-622XR.jpeg"  className="img-fluid" alt=""/>
 
@@ -51,9 +53,9 @@ export const ProductPortfolio = () =>{
           <h4>X-Ray Baggage Scanners</h4>
           
         </div>
-      </div></SwiperSlide>
+      </div></a></Link></SwiperSlide>
     <SwiperSlide>
-      <div className="member">
+    <Link href= "/category/exp-trace-detectors" ><a className={styles.productA}><div className="member">
         <div className="member-img">
           <img  src="/images/products/Itemiser-4DX-1.jpg"  className="img-fluid" alt=""/>
 
@@ -62,10 +64,10 @@ export const ProductPortfolio = () =>{
           <h4>Explosive Trace Detectors</h4>
           
         </div>
-      </div>
+      </div></a></Link>
     </SwiperSlide>
     <SwiperSlide>
-      <div className="member">
+    <Link href= "/category/door-frame-metal-detectors" ><a className={styles.productA}> <div className="member">
         <div className="member-img">
           <img  src="/images/products/Metor-6M.jpeg"  className="img-fluid" alt=""/>
 
@@ -74,11 +76,9 @@ export const ProductPortfolio = () =>{
           <h4>Door Frame Metal Detectors</h4>
           
         </div>
-      </div>
+      </div></a></Link>
     </SwiperSlide>
-    <SwiperSlide>
-
-      <div className="member">
+    <SwiperSlide><Link href= "/category/hand-held-metal-detectors" ><a className={styles.productA}> <div className="member">
         <div className="member-img">
           <img src="/images/products/handheld.jpeg" className="img-fluid" alt=""/>
 
@@ -87,13 +87,11 @@ export const ProductPortfolio = () =>{
           <h4>Hand Held Metal Detectors</h4>
           
         </div>
-      </div>
+      </div></a></Link>
 
     </SwiperSlide>
-    <SwiperSlide>
-
-<div className="member">
-  <div className="member-img">
+    <SwiperSlide><Link href= "/category/vehicle-mounted-x-Ray-baggage-scanners" ><a className={styles.productA}> <div className="member">
+        <div className="member-img">
   <img src="/images/products/Rapiscan-MobileCheck-636SV.jpeg" className="img-fluid p-2" style={{"marginBottom":"3.3em", "borderRadius":"20px"}} height="250" alt=""/>
 
   </div>
@@ -101,8 +99,7 @@ export const ProductPortfolio = () =>{
     <h4>Vehicle Mounted X-Ray Baggage Scanners</h4>
     
   </div>
-</div>
-
+</div></a></Link>
 </SwiperSlide>
     </Swiper>
   </div></>);

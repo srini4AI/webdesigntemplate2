@@ -20,8 +20,10 @@ import styles1 from '../components/footer/footer.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactForm from '../components/contactForm';
 import { ScrollToTop } from '../components/scrolltotop';
+import { Router } from 'next/router';
+
 const Home: NextPage = () => {
-  
+
   useEffect(()=>{
     AOS.init({
       duration : 500,
