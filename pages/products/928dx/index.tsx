@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './928dx.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import { ScrollToTop } from '../../../components/scrolltotop';
@@ -31,9 +31,12 @@ const r928dx = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
            
-            <img src="/images/products/928DX.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/928DX.jpg" className="img-fluid pt-5" alt=""/>
+            <a href="/images/productDataSheet/DSBP-0008-928DX-184703.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
+            </div>
+          
           
           <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>The 928DX is a High Performance 1010mm by 1010mm tunnel low conveyor dual view screening system with superb image quality and excellent threat detection alert capabilities.</p>

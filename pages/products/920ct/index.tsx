@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './920ct.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import { ScrollToTop } from '../../../components/scrolltotop';
@@ -31,9 +31,11 @@ const r920ct = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
            
-            <img src="/images/products/920ct.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/920ct.jpg" className="img-fluid pt-5" alt=""/>
+            <br/><br/><a href="/images/productDataSheet/Rapsican-920CT-182402.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
+            </div>
           
           <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>We believe in a future that is safe for everyone, which is why at Rapiscan Systems we are committed to providing the best possible solutions to meet your needs.</p>

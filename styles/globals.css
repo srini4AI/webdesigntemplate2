@@ -349,8 +349,12 @@ section#clients  h2::after, section.contacts  h2::after, section.products h2::af
   bottom: 0;
   left: calc(50% - 25px);
 }
-
-
+nav[aria-label="breadcrumb"]{
+  margin-top:5px;
+}
+ol.breadcrumb li {
+  line-height: 33px;
+}
 
 section.contact .php-email-form {
   box-shadow: 0 0 30px rgb(214 215 216 / 60%);

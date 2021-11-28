@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './rap636sv.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 const rap636sv = () =>{
@@ -29,12 +29,13 @@ const rap636sv = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-4 text-center">
            
-            <img src="/images/products/Rapiscan-MobileCheck-636SV.jpeg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/Rapiscan-MobileCheck-636SV.jpeg" className="img-fluid pt-5" alt=""/>
+            <br/> <br/><br/><a href="/images/productDataSheet/Rapiscan-MobileCheck-636SV-Datasheet.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a></div>
           
           <div className="col-lg-8 pt-4 pt-lg-0 content">
-            <p className={styles.productdescr}>The Rapiscan MobileCheck™ 636SV is a state of the art self-contained mobile X-ray screening unit with a large tunnel opening of 1,000mm (40in) by 1,000mm (40in).
+            <p className={styles.productdescr}>The Rapiscan MobileCheck 636SV is a state of the art self-contained mobile X-ray screening unit with a large tunnel opening of 1,000mm (40in) by 1,000mm (40in).
             </p>
             <p  className={styles.productdescr}>
             With an innovative design the ability to rapidly deploy baggage and parcel inspection at any location with one complete unit is possible. The Rapiscan MobileCheck 636SV can be deployed and operated in three different modes, from either side of the van or in a pass through mode.
@@ -60,7 +61,6 @@ const rap636sv = () =>{
 
       </div>
     </section>
-    
     <footer id={styles1.footer}>
         <div className={styles1.footerTop}>
           <div className="container">

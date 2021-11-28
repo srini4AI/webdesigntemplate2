@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './rap624xr.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle,faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import ProductList from '../../../components/productList';
@@ -32,8 +32,11 @@ const rap624xr = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-6">
-          <ProductList products={['/images/products/Rapiscan-624XR.jpeg','/images/products/624XR.jpeg']}></ProductList></div>
+          <div className="col-lg-6 text-center">
+          <ProductList products={['/images/products/Rapiscan-624XR.jpeg','/images/products/624XR.jpeg']}></ProductList>
+          <br/><br/><a href="/images/productDataSheet/Rapiscan-624XR-Datasheet.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
+            </div>
+          
           
           <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Quickly check-in with this low-profile conveyor and large tunnel for upright baggage screening.</p>

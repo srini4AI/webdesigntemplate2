@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './itemiser5x.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle,faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import { ScrollToTop } from '../../../components/scrolltotop';
@@ -30,9 +30,11 @@ const Itemiser = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-4 text-center">
            
-            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/5X.jpg" className="img-fluid pt-5" alt=""/>
+            <a href="/images/productDataSheet/LS-Itemiser-5X-Trace-Detection.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
+            </div>
           
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>New for 2021. The Itemiser 5X uses optimized detection libraries and advanced software algorithms, making it the ideal solution for detecting trace amounts of explosive and narcotic threats.</p>

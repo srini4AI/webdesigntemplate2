@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './itemiser4dx.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import { ScrollToTop } from '../../../components/scrolltotop';
@@ -31,9 +31,11 @@ const Itemiser4DX = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
            
-          <ProductList products={['/images/products/Itemiser-4DX-1.jpg','/images/products/Itemiser-4DX-2.jpeg']}></ProductList></div>
+          <ProductList products={['/images/products/Itemiser-4DX-1.jpg','/images/products/Itemiser-4DX-2.jpeg']}></ProductList>
+          <br/><br/><a href="/images/productDataSheet/Itemiser_4DX - Brochure.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
+            </div>
           
           <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Aviation approved non-radioactive-based explosives and narcotics detection.</p>

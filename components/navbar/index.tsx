@@ -93,7 +93,7 @@ export const NavBarHeader =() =>{
         <NavDropdown title="Career" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/opening" id={styles.anchorAnnual}>Current Opening</NavDropdown.Item>
         <NavDropdown.Item href="/whyerl" id={styles.anchorAnnual}>Why ERL</NavDropdown.Item>
-        <NavDropdown.Item href="/events" id={styles.anchorAnnual}>Events</NavDropdown.Item>
+        <NavDropdown.Item href="/eventsCategory" id={styles.anchorAnnual}>Events</NavDropdown.Item>
         </NavDropdown> 
         <Nav.Link href="/contactus">Contact us</Nav.Link>
       </Nav>

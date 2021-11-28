@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './rap620dv.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle,faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import ProductList from '../../../components/productList';
@@ -32,12 +32,11 @@ const rap620dv = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
            
           <ProductList products={['/images/products/Rapiscan_620DV.png','/images/products/Rapiscan620DVAT-TSA.jpg']}></ProductList>
-            
-            </div>
-          
+         <br/> <a href="/images/productDataSheet/Rapiscan-620DV-Datasheet.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
+            </div> 
           <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Carry-on baggage checkpoint screening solution approved by U.S. Transportation Security Administration (TSA), European Civil Aviation Conference (ECAC), France Civil Aviation Authority (STAC) and U.K. Department for Transport (DfT).</p>
 
