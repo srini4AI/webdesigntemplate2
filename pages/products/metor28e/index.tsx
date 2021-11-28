@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './metor28e.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 const metor28e = () =>{
@@ -14,25 +14,29 @@ const metor28e = () =>{
 
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className={styles.headingH2}>METOR 28E</h2>
+                
                     <Breadcrumb className="d-none d-sm-block">
                         <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="#">Products</Breadcrumb.Item>
                         <Breadcrumb.Item active>metor metal detectors</Breadcrumb.Item>
                         <Breadcrumb.Item active>METOR 28E</Breadcrumb.Item>
+                       
+     
                     </Breadcrumb>
+                   
+                 
                 </div>
 
             </div>
         </section>
         <section id="about" className="about">
       <div className="container aos-init aos-animate" data-aos="fade-up">
-
-   
-
         <div className="row my-4">
-          <div className="col-lg-4">
-           
-            <img src="/images/products/metor-28e.jpg" className="img-fluid pt-5" alt=""/></div>
+          <div className="col-lg-4 text-center">
+          
+            <img src="/images/products/metor-28e.jpg" className="img-fluid pt-5" alt=""/>
+            <a href="/images/productDataSheet/Metor 28e-Datasheet.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
+            </div>
           
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Metor 28e is a unique hand-held metal detector with enhanced capabilities, detecting objects made of all metal, both ferrous and non-ferrous.</p>
@@ -94,6 +98,7 @@ const metor28e = () =>{
                     <p className={`${styles.circleIconp} text-center mt-3`}>LIGHTWEIGHT<br/>DESIGN</p>
                     </div>
             </div>
+            
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
               <h3 className={styles.aboutH3}>MICROCONTROLLER TECHNOLOGY</h3>

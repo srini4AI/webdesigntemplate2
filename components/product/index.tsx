@@ -9,10 +9,11 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import React, { useEffect } from 'react';
 import styles from './product.module.css';
+
 export const ProductPortfolio = () =>{
   useEffect(()=>{
     SwiperCore.use([Autoplay])
-  },[Autoplay])
+  },[])
     return( <> <div className="row">
        <Swiper
        autoplay={{ delay: 3000 }}

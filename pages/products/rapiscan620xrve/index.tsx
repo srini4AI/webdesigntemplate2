@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './rap620xrve.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle,faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import { ScrollToTop } from '../../../components/scrolltotop';
@@ -31,10 +31,12 @@ const rap620xrve = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
            
           <img  className="img-fluid pt-5" src="/images/products/620xr-ve.jpeg"/>
+          <a href="/images/productDataSheet/Rapiscan 620XR-VE-Datasheet.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
             </div>
+          
           
           <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Ultra-compact 620mm By 420mm Tunnel Checkpoint Security Screening System For Critical Infrastructure Protection</p>

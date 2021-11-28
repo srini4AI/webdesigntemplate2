@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './rap515.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import { ScrollToTop } from '../../../components/scrolltotop';
@@ -22,6 +22,7 @@ const rap515 = () =>{
                         <Breadcrumb.Item active>RAP 515</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
+                
             </div>
         </section>
         <section id="about" className="about">
@@ -30,9 +31,11 @@ const rap515 = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
            
-            <img  className="img-fluid pt-5" src="/images/products/RAP-515.jpeg"/></div>
+            <img  className="img-fluid pt-5" src="/images/products/RAP-515.jpeg"/>
+           <br/> <br/><a href="/images/productDataSheet/Rapiscan-515.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
+            </div>
           
           <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>The Rapiscan Model 515 is an x-ray security inspection system designed for customers with new and expanding security requirements. The Model 515 has a fully configurable technology menu, which allows the user to choose the best value for their application and budget. Its compact design and removable control panel make the system an excellent choice for numerous security applications. The system offers a tunnel opening of 640mm (25.2 inches) wide by 430mm (16.9 inches) high to accommodate large package sizes.</p>
@@ -50,7 +53,7 @@ const rap515 = () =>{
     </ul>    
  
               </div>
-    
+              
             </div>
    
           </div>

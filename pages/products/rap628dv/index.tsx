@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './rap628dv.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 import ProductList from '../../../components/productList';
@@ -32,11 +32,13 @@ const rap628dv = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-center">
            
           <ProductList products={['/images/products/Rapiscan-628DV.jpg']}></ProductList>
-            
+          <br/><a href="/images/productDataSheet/Rapiscan-628DV-Datasheet.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
             </div>
+           
+            
           
           <div className="col-lg-6 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}> Dual view technology, easy loading conveyor and large tunnel for X-ray screening of large baggage and small cargo.</p>
@@ -45,11 +47,7 @@ const rap628dv = () =>{
 
             <p className={styles.productdescr}> With a 1,000 mm wide by 1,000 mm high tunnel opening, the 628DV meets the most stringent requirements of multiple global regulatory requirements.</p>
 
-            <p className={styles.productdescr}>The 628DV has been approved and included on the U.S. TSA Air Cargo Screening Technology List (ACSTL) and the Transport Canada (TC) Air Cargo Security Program (ACS).</p>
-
-
-
-            
+            <p className={styles.productdescr}>The 628DV has been approved and included on the U.S. TSA Air Cargo Screening Technology List (ACSTL) and the Transport Canada (TC) Air Cargo Security Program (ACS).</p> 
             
             <div className="row">
               <div className="col-lg-12">

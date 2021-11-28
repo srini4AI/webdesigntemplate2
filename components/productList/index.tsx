@@ -19,7 +19,7 @@ const ProductList = ({products}:ProductListProps) =>{
     return (<React.Fragment>
 <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       slidesPerView={1}
       navigation
 

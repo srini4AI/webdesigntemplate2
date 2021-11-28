@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
@@ -8,7 +9,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 export const SliderWeb =  () => {
+  useEffect(()=>{
     SwiperCore.use([Autoplay])
+  },[])
     const siwpeList = ["/images/clients/image001.gif","/images/clients/image003.png","/images/clients/image005.png","/images/clients/image007.png",
     "/images/clients/image008.png","/images/clients/image010.png","/images/clients/image012.png","/images/clients/image013.png","/images/clients/image014.png",
     "/images/clients/image015.png","/images/clients/image016.png","/images/clients/image017.png","/images/clients/image019.png","/images/clients/image020.png",

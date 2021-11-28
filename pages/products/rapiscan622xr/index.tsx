@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './rap622xr.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle,faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 const rap622xr = () =>{
@@ -30,9 +30,11 @@ const rap622xr = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-4 text-center">
            
-            <img src="/images/products/Rapiscan-622XR.jpeg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/Rapiscan-622XR.jpeg" className="img-fluid pt-5" alt=""/> 
+            <a href="/images/productDataSheet/Rapiscan-622XR-Datasheet.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a>
+            </div>
           
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Feature-rich X-ray baggage inspection system for screening large carry-on baggage and parcels at the checkpoint.</p>

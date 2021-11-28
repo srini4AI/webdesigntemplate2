@@ -4,7 +4,7 @@ import { NavBarHeader } from '../../../components/navbar';
 import styles from './metor28.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble, faCircle, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FooterWeb } from '../../../components/footer';
 import styles1 from '../../../components/footer/footer.module.css';
 const metor28 = () =>{
@@ -30,9 +30,10 @@ const metor28 = () =>{
    
 
         <div className="row my-4">
-          <div className="col-lg-4">
+          <div className="col-lg-4 text-center">
            
-            <img src="/images/products/metor-28.jpg" className="img-fluid pt-5" alt=""/></div>
+            <img src="/images/products/metor-28.jpg" className="img-fluid pt-5" alt=""/>
+            <a href="/images/productDataSheet/Metor-28-Datasheet.pdf" style={{"margin":"0 auto"}} className="btn btn-primary btn-lg" download><FontAwesomeIcon icon={faDownload}  /> Download</a></div>
           
           <div className="col-lg-8 pt-4 pt-lg-0 content">
             <p className={styles.productdescr}>Hand-held metal detectors are an integral part of the physical security screening process. With the Metor 28, we have designed a unit that benefits security personnel as well as the person being scanned. Our unique angled design allows you to thoroughly scan an individual, while keeping your hand away from their body.</p>
