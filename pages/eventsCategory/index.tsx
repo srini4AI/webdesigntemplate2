@@ -62,7 +62,8 @@ const EventsCategory = () => {
             </div>
           </div>
         </div>
-      </footer></>)
+      </footer>
+      <ScrollToTop></ScrollToTop></>)
 }
 
 export default EventsCategory;
